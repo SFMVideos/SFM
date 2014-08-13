@@ -1,0 +1,537 @@
+//====== Copyright © 1996-2005, Valve Corporation, All rights reserved. =======
+//
+// Purpose: Aperture entity declarations
+//
+//=============================================================================
+
+@include "base.fgd"
+@include "portal.fgd"
+@include "halflife2.fgd"
+
+@SolidClass base(Targetname, worldbase, ResponseContext) = worldspawn : 
+	"This is the world entity. Each map can only contain one, and it's automatically created for you."
+[
+		paintinmap(choices) : "Paint in map" : 0 =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+]
+
+
+
+@BaseClass = LinkedPortalDoor : "An entity that can be linked to another door and create a passage between them dynamically."
+[
+	partnername(target_destination) : "Linked Partner" : : "Another 'prop_linked_portal_door' entity which will link to this one."
+
+	input SetPartner(string) : "Set a new partner door."
+	input Open(void) : "Open the door and cause the portal to activate."
+	input Close(void) : "Close the door and cause the portal to deactivate."
+
+	output OnOpen(void) : "Called when the door has started its open animation."
+	output OnClose(void) : "Called when the door has started its close animation."
+	output OnEntityTeleportFromMe(void)		: "When any entity is teleported from this portal to the linked partner."
+	output OnPlayerTeleportFromMe(void)		: "When the player is teleported from this portal to the linked partner."
+	output OnEntityTeleportToMe(void)		: "When any entity is teleported from this linked partner to the portal."
+	output OnPlayerTeleportToMe(void)		: "When the player is teleported from this linked partner to the portal."
+]
+
+@PointClass base(Targetname) sphere(radius) = info_target_personality_sphere : "Personality Sphere Info Target"
+[
+	sphereLine(string) : "Sphere Line" : "" : "Line sphere will speak when we are looking at this target."
+	radius(float) : "Radius" : 16 : "Radius of this object"
+]
+
+@PointClass base(Targetname, Parentname, Angles) iconsprite("editor/info_target.vmt") studioprop() = info_target : 
+	"Portal2 override of info_target. An entity that does nothing. Very useful as a positioning entity for other entities to refer to (i.e. the endpoint of an env_beam)"
+[
+	spawnflags( Flags ) =
+	[
+		1 : "Transmit to client" : 0
+	]
+	model(studio) : "World Model"
+]
+
+@PointClass base(Targetname, Parentname, Angles) studioprop("models/props/tripwire_turret.mdl") = prop_rocket_tripwire : 
+	"A stationary tripwire that fires a rocket when crossed."
+[
+	RocketSpeed(float) : "Rocket Speed" : 450 : "Speed the rocket will travel at."
+	RocketLifetime(float) : "Rocket Lifetime" : 20 : "The rocket will automatically detonate after this number of seconds."
+	input ForceFire(void) : "Forces the rocket turret to fire."
+
+	output OnTripped(void) 	: 	"Fires when the laser has been tripped"
+	output OnRocketExplode(void) 	: 	"Fires when the rocket explodes"
+]
+
+@PointClass base(BasePropPhysics, RenderFields) studioprop() sphere(fademindist) sphere(fademaxdist) = prop_physics :
+	"A prop that physically simulates as a single rigid body. It can be constrained to other physics objects using hinges "+
+	"or other constraints. It can also be configured to break when it takes enough damage. "+
+	"Note that the health of the object will be overridden by the health inside the model, to ensure consistent health game-wide. "+
+	"If the model used by the prop is configured to be used as a prop_dynamic (i.e. it should not be physically simulated) then it CANNOT be "+
+	"used as a prop_physics. Upon level load it will display a warning in the console and remove itself. Use a prop_dynamic instead."
+[
+	allowfunnel(boolean) : "Allow Portal Funneling" : 1 : "Whether or not this object should auto-funnel into a portal."
+]
+
+@PointClass base(BasePropPhysics) studioprop() sphere(fademindist) sphere(fademaxdist) = prop_physics_override :
+	"A prop that physically simulates as a single rigid body. It can be constrained to other physics objects using hinges "+
+	"or other constraints. It can also be configured to break when it takes enough damage. Health can be overridden on this version."
+[
+	health(integer) : "Health" : 0 : "Number of points of damage to take before breaking.  0 means don't break."
+	
+	// Inputs
+	input Ignite(void) : "Ignite, burst into flames."
+	input IgniteLifetime(float) : "Ignite, with a parameter lifetime."
+	input IgniteNumHitboxFires(integer) : "Ignite, with a parameternumber of hitbox fires."
+	input IgniteHitboxFireScale(float) : "Ignite, with a parameter hitbox fire scale."
+]
+
+@SolidClass base(Targetname) = func_camera_target :
+	"Used to produce perfectly reflective glass that renders world + entities."
+[
+]
+
+@PointClass base(Targetname, Parentname, Angles, LinkedPortalDoor) studio("models/editor/axis_helper_thick.mdl") line(255 255 0, targetname, partnername) = linked_portal_door :
+"A door which is linked by a portal to another 'linked_portal_door' entity."
+[
+	width(integer) : "Width" : 128 : "Width of the desired portal."
+	height(integer) : "Height" : 128 : "Height of the desired portal."
+	startactive(boolean) : "Start Active" : 0 : "Whether to start the linkage as active from the start."
+]
+
+@PointClass base(Targetname, Parentname, Angles, LinkedPortalDoor) studio("models/props/portal_door.mdl") line(255 255 0, targetname, partnername) = prop_linked_portal_door :
+"A door which is linked by a portal to another 'prop_linked_portal_door' entity."
+[
+	lightingorigin(target_destination) : "Lighting Origin" : "" : "Select an info_lighting to specify a location to sample lighting from for all gibs spawned by this shooter, instead of their own origins."
+
+	output OnFullyOpen(void) : "Called when the door has finished its open animation."
+	output OnFullyClosed(void) : "Called when the door has finished its close animation."
+]
+
+@PointClass base(Targetname, Parentname, Angles ) studio("models/props/switch001.mdl") = prop_button :
+"A button which is activated by player use or by game inputs."
+[
+	Delay(float) : "Delay Before Reset" : 1 : "Amount of time, in seconds, after the button has been pressed before it returns to the starting position. Once it has returned, it can be used again."
+	istimer(boolean) : "Play timer sound?" : 0 : "If set, this button will play timer sounds while button is depressed."
+
+	input Press(void) : "Cause the button to be pressed."
+	input Lock(void) : "Locks the button."
+	input UnLock(void) : "UnLocks the button."
+	input CancelPress(void) : "Causes the button to reset quietly and without firing OnButtonReset outputs."
+	
+	
+	output OnPressed(void) : "Called when the button has been pressed."
+	output OnButtonReset(void) : "Called when the button has reset after being pressed."
+]
+
+@PointClass base(Targetname, Parentname, Angles ) studio() = prop_floor_button :
+"A floor button which is activated by a player or objects."
+[
+	model(studio) : "Button model" : "models/props/portal_button.mdl" : "Button model must have the correct sequences and attachments in order to work as a button."
+	output OnPressed(void) : "Called when the button has been pressed."
+	output OnUnPressed(void) : "Called when the button has been unpressed."
+]
+
+@PointClass base(Targetname, Parentname, Angles ) studio("models/props/box_socket.mdl") = prop_floor_cube_button :
+"A floor button which is activated by a prop_weighted_cube."
+[
+	output OnPressed(void) : "Called when the button has been pressed."
+	output OnUnPressed(void) : "Called when the button has been unpressed."
+]
+
+@PointClass base(Targetname, Angles) studio("models/props/wall_emitter.mdl") = prop_wall_projector : "Wall Projector"
+[
+	
+]
+
+@PointClass base(Targetname, Angles, EnableDisable) sphere(radius) studio("models/editor/axis_helper_thick.mdl") = info_placement_helper : "Placement helper"
+[
+	radius(float) : "Radius" : 16 : "Radius in which to influence placement.,"
+	proxy_name(target_destination) : "Proxy Entity Name" : : "Name of the entity we want to use for our real placement position."
+	attach_target_name(string) : "Attach Entity Name" : : "Name of the entity we want force our attachment to. Used to combine objects."
+
+	snap_to_helper_angles(boolean) : "Use helper's angles" : 0 : "Placed objects will snap to the angles of the placement helper."
+
+	force_placement(boolean) : "Force Placement" : 0 : "Avoids placement rules when placing at this helper."
+
+	output OnObjectPlaced(void) : "An object has been successfully placed using us as a guide."
+	output OnObjectPlacedSize(integer) : "When an object is successfully placed, this sends the scale level as an out value"
+]
+
+@SolidClass base(Trigger) = func_placement_clip : "Specifies a region where things cannot be built."
+[
+]
+
+//-------------------------------------------------------------------------
+//
+// NPCs
+//
+//-------------------------------------------------------------------------
+
+@FilterClass base(BaseFilter) iconsprite("editor/filter_name.vmt") = filter_player_held :
+	"A filter that only accepts objects held by the player."
+[
+]
+
+@PointClass base(Parentname, Targetname, Angles) studio() = env_portal_laser
+: "Laser beam that will move through portals and reflect off metal surfaces."
+[
+	model(studio) : "Laser model" : "models/props/laser_emitter.mdl"
+	
+	StartState(choices) : "Start off?" : 0 =
+	[
+		1 : "Yes"
+		0 : "No"
+	]
+	
+	input Toggle( void ) : "Toggle the laser on and off."
+	input TurnOn( void ) : "Turn the laser on."
+	input TurnOff( void ) : "Turn the laser off."
+]
+
+
+@PointClass base(Targetname) = point_laser_target
+: "Target for lasers to strike. The entity will fire outputs when struck and unstruck."
+[
+	terminalpoint(boolean) : "Terminal Point" : 1
+
+	output OnPowered(void) : "Fired when a laser hits the target."
+	output OnUnpowered(void) : "Fired when a laser has stopped hitting the target."
+]
+
+@PointClass base(Parentname, Targetname) studio() = prop_laser_catcher
+: "Laser catcher that has target for lasers to strike. The entity will fire outputs when struck and unstruck."
+[
+	model(studio) : "laser catcher model" : "models/props/laser_catcher.mdl"
+	output OnPowered(void) : "Fired when a laser hits the target."
+	output OnUnpowered(void) : "Fired when a laser has stopped hitting the target."
+]
+
+@PointClass base(Parentname, Targetname) studio() = prop_laser_relay
+: "Laser catcher that has target for lasers to strike. The entity will fire outputs when struck and unstruck."
+[
+	model(studio) : "laser relay model" : "models/props/laser_receptacle.mdl"
+	output OnPowered(void) : "Fired when a laser hits the target."
+	output OnUnpowered(void) : "Fired when a laser has stopped hitting the target."
+]
+
+@PointClass base(Targetname,Angles) studio( "models/props/metal_box.mdl" ) = prop_weighted_cube : "Weighted Cube"
+[
+	skin(choices) : "Cube Type" : 0 =
+	[
+		0 : "Standard"
+		1 : "Companion"
+		2 : "Reflective"
+		3 : "Sphere"
+	]
+
+
+	PaintPower(choices) : "Paint Power" : 3 :
+	"The paint power of the pickup." =
+	[
+		0 : "Bounce"
+		1 : "Stick"
+		2 : "Speed"
+		3 : "None"
+	]
+
+	input  Dissolve(void) : "Dissolves the cube."
+	output OnFizzled(void) : "Fired when a cube is fizzled."
+]
+
+@SolidClass base(Trigger) = trigger_catapult : "Catapult the player in a given diretion at a given velocity."
+[
+	playerSpeed(float) : "Player Speed" : 450 : "Speed at which to launch the players (u/sec)"
+	physicsSpeed(float) : "Physics Object Speed" : 450 : "Speed at which to launch physics objects (u/sec)"
+	useThresholdCheck(boolean) : "Use Threshold Check" : 0
+	lowerThreshold(float) : "Lower Threshold" : "0.15" : "Flung object must be within this percentage value in order to activate fling. Specify a value between [0...1] (default is .15) This is only used if Use Threshold Check is set to yes."
+	upperThreshold(float) : "Upper Threshold" : "0.30" : "Flung object must be within this percentage value in order to activate fling. Specify a value between [0...1] (default is .30) This is only used if Use Threshold Check is set to yes."
+	launchDirection(angle) : "Launch direction" : "0 0 0" : "Direction to launch the player in."
+	launchTarget(target_destination) : "Launch target" : "" : "Entity to try to 'hit' when we're launched."
+
+	output OnCatapulted(void) : "The object has been launched."
+]
+
+@PointClass base(BasePropPhysics) studio( "models/props/futbol.mdl" ) = prop_glass_futbol : "Magic glass futbol which the player uses to power futbol sockets."
+[
+	SpawnerName(string)		: "Spawner Name" : "" : "Name of prop_glass_futbol_spawner for this futbol to respawn in once broken."
+]
+
+@PointClass base(Targetname) studio( "models/props/futbol_dispenser.mdl" ) = prop_glass_futbol_spawner : "Spawns magic glass futbols. Will re-create a futbol when it's created futbol breaks."
+[
+	StartWithFutbol(boolean) : "Start with Futbol" : "1" : "Set true if this spawner starts with a futbol in it. Set to false if this spawner's futbol will be maunally placed in the map."
+
+	// Inputs
+	input ForceSpawn(void)	: "Spawns a new futbol. Usually isn't nessicary, because futbols respawn automatically if broken."
+	
+	// Outputs
+	output OnFutbolSpawned(void) : "Created a new futbol."
+	output OnFutbolGrabbed(void) : "Player has taken the futbol out of this spawner."
+]
+
+@PointClass base(Targetname) studio( "models/props/futbol_socket.mdl" ) = prop_glass_futbol_socket : "Catches futbols and fires an output."
+[
+	// Outputs
+	output OnFutbolReleased(void) : "Player has taken the futbol out of this socket."
+	output OnFutbolCaught(void)	: "This socket has captured a futbol."
+]
+
+@PointClass base(Targetname) = portalmp_gamerules : "Proxy entity for Portal 2 Gamerules"
+[	
+	input AddRedTeamScore(integer) : "Add to the Red team score (can be a negative number)"
+	input AddBlueTeamScore(integer) : "Add to the Blue team score (can be a negative number)"
+]
+
+@PointClass base(Parentname, Targetname, Angles) studio("models/effects/cappoint_hologram.mdl") = item_nugget : "Aperture Incentivizing Nugget"
+[
+	GroupName(string) : "Group Name" : : "Giving nuggets a group name hints the game that they are intended to be a group"
+	RespawnTime(float) : "Respawn Time" : 30 : "Number of seconds between when a nugget is collected and when it respawns"
+	PointValue(choices) : "Point Value" : 1 =
+	[
+		1 : "1"
+		5 : "5"
+		10 : "10"
+		25 : "25"
+	]
+]
+
+@SolidClass base(func_portal_detector) = func_portalled : "Fires outputs when an entity teleports through a portal in its volume"
+[
+	FireOnDeparture(boolean) : "Fire On Departure" : 1 : "Fire when the entity is entering this portal"
+	FireOnArrival(boolean) : "Fire On Arrival" : 1 : "Fire when the entity is exiting this portal"		
+	FireOnPlayer(boolean) : "Player" : 1 : "Fire when a player has portalled"
+	
+	output OnEntityPrePortalled(void)	: "Fires when the entity is about to portal."
+	output OnEntityPostPortalled(void)	: "Fires when the entity is done portalling."
+]
+
+@PointClass base(Targetname) = logic_player_slowtime : "Start/stops player being in slow time"
+[
+	input StartSlowingTime(float) : "Start slowing time for the player (with a set duration)."
+	input StopSlowingTime(void) : "Stop slowing time for the player."
+]
+
+@PointClass base(Targetname, PlayerClass, Angles) studio("models/editor/playerstart.mdl") = info_coop_spawn : "Player spawns for cooperative mode"
+[
+	Enabled(choices) : "Initial State" : 0 =
+	[
+		0 : "Disabled"
+		1 : "Enabled"
+	]
+	
+	StartingTeam(choices) : "Team" : 0 =
+	[
+		0 : "Any"
+		2 : "Red"
+		3 : "Blue"
+	]
+	
+	input Enable(void) : "Enable the spawn point to be used."
+	input SetAsActiveSpawn(void) : "Enable the spawn point to be used, disabling all other spawn points that do not share the same name."
+	input Disable(void) : "Disable the spawn point from being used."
+	input SetTeam(integer) : "Set the team this spawn point is for. 0 and 1 are any team. 2 is red, 3 is blue"
+]
+
+@PointClass base(TalkNPC,Parentname) studio("models/npcs/personality_sphere/personality_sphere.mdl") = npc_personality_core
+[
+	CoreType(choices) : "Core Personality" : 1 : "Which personality VO set the core is set to." =
+	[
+		0 : "Curious"
+		1 : "Aggressive"
+		2 : "Crazy"
+		3 : "Richard"
+		4 : "Aquarium"
+		5 : "None"
+	]	
+
+	output OnPlayerPickup(void) : "Fired whenever the player picks up the core."
+	output OnPlayerDrop(void) : "Fired whenever the player drops the core."
+	
+	input EnableMotion(void) : "Enable physics motion/collision response."
+	input DisableMotion(void) : "Disable physics motion/collision response."
+
+	input EnableFlashlight(void) : "Enable the eye flashlight."
+	input DisableFlashlight(void) : "Disable the eye flashlight."
+	
+	input EnablePickup(void) : "Allow player pickup."
+	input DisablePickup(void) : "Disable player pickup."
+	
+	input PlayAttach(void) : "Play the attach animation, used for syncing with the socket animation."
+	input PlayDetach(void) : "Play the attach animation, used for syncing with the socket animation."
+	input PlayLock(void) : "Play the lock animation, used for syncing with the socket animation."
+	
+	input SetIdleSequence(string) : "Set a sequence to use as an idle."
+	input ClearIdleSequence(void) : "Return to the default idle animation."
+]
+
+@PointClass base(Targetname, Parentname, Angles) studio("models/props/sign_frame01/sign_frame01.mdl") line(255 255 0, targetname, IndicatorLights) = prop_indicator_panel
+[
+	TimerDuration(float) : "Timer Duration" : 0 : "Amount of time the counter will count down"
+	Enabled(boolean) : "Start visible?" : 0 : "Whether the timer should be initially visible."
+	IsTimer(boolean) : "Is a timer" : 0 : "Whether we're a countdown timer or not."
+	IsChecked(boolean) : "Is checked" : 0 : "If this is a binary indicator, whether this is checked or not."
+
+	IndicatorLights(target_destination) : "Indicator Lights" : "" : "If supplied, assumes this is a group of indicators lights to toggle when the indicator is toggled."
+
+	input Check(void) : "Sets the indicator state to be 'checked'."
+	input Uncheck(void) : "Sets the indicator state to be 'unchecked'."
+
+	input Start(void) : "Start counting down."
+	input Stop(void) : "Stop the counter at its current value."
+	input Reset(void) : "Reset the timer back to its default value."
+]
+
+@PointClass base(Targetname, Parentname, Angles) studio("models/props/sign_frame01/sign_frame01.mdl") = prop_tic_tac_toe_panel
+[
+	output OnPlayer1Pinged(void) : "Fired if pinged by Player 1."
+	output OnPlayer2Pinged(void) : "Fired if pinged by Player 2."
+]
+
+@SolidClass base(Targetname) = trigger_playerteam : "Triggers different outputs for different players touching the trigger."
+[
+	target_team(choices) : "Target Team" : 0 : "Which team (or all) to allow to touch this trigger." =
+	[
+		0 : "Both"
+		3 : "Blue"
+		2 : "Orange"
+	]	
+
+	trigger_once(boolean) : "Trigger Once" : "No" : "Only trigger once, then remove the trigger."
+
+	output OnStartTouchOrangePlayer(void) : "Orange player has started touching the trigger."
+	output OnStartTouchBluePlayer(void) : "Blue player has started touching the trigger."
+	output OnEndTouchOrangePlayer(void) : "Orange player has stopped touching the trigger."
+	output OnEndTouchBluePlayer(void) : "Blue player has stopped touching the trigger."
+]
+
+@SolidClass base(Targetname) = trigger_ping_detector : "Detects whether a player has pinged in its region."
+[
+	output OnOrangePlayerPinged(void) : "Fired when the orange player has pinged inside the trigger."
+	output OnBluePlayerPinged(void) : "Fired when the blue player has pinged inside the trigger."
+]
+
+@PointClass base(Targetname) iconsprite("editor/info_landmark") = info_landmark_entry : "Entry landmark"
+[
+]
+
+@PointClass base(Targetname) iconsprite("editor/info_landmark") = info_landmark_exit : "Exit landmark"
+[
+]
+
+@PointClass base(Targetname) iconsprite("editor/game_end.vmt") = point_changelevel : "Level Change Entity"
+[
+	input ChangeLevel(string) : "Changes the level to the map name supplied as a parameter."
+	output OnChangeLevel(void) : "Fired when the level is about to change."
+]
+
+@PointClass base(Targetname, Parentname, Angles) studio("models/props/wall_emitter.mdl") = prop_tractor_beam : "Emitter for a tractor beam."
+[
+	linearForce(float) : "Linear Force" : 250 : "Linear force to apply to objects in the beam."
+	input SetLinearForce(float) : "Set the linear force applied to objects in the beam."
+	// input Enable(void) : "Turn the beam on."
+	// input Disable(void) : "Turn the beam off."
+]
+
+@PointClass base(Targetname, Parentname, Angles) studio("models/editor/cone_helper.mdl") = info_paint_sprayer : "An entity that sprays paint."
+[
+	//Paint sprayer
+	start_active(boolean) : "Start Active?" : 0
+	silent(boolean) : "Silent?" : "0" : "If the blobs are invisible (Pre-paint)."
+	PaintType(choices) : "Paint Type" : 0 :
+	"The type of paint sprayed." = 
+	[
+		0 : "Bounce"
+		1 : "Stick"
+		2 : "Speed"
+		3 : "Erase"
+	]
+	blobs_per_second(float) : "Blobs per second" : "1" : "The number of paint blobs sprayed per second."
+	min_speed(float) : "Min blob speed" : "100" : "The minimum speed of the sprayed blobs."
+	max_speed(float) : "Max blob speed" : "100" : "The maximum speed of the sprayed blobs."
+	blob_spread_radius(float) : "Blob spread radius" : "0" : "The starting radius of the spread of the blobs."
+	blob_spread_angle(float) : "Blob spread angle" : "0" : "The spread of the blobs along its direction vector (in degrees)."
+	blob_streak_percentage(float) : "Blob streak percentage" : "0" : "The percentage of blobs that will streak (0 - 100)."
+	min_streak_time(float) : "Blob min streak time" : "0.2" : "The minimum time that the blobs will streak for."
+	max_streak_time(float) : "Blob max streak time" : "0.5" : "The maximum time that the blobs will streak for."
+	min_streak_speed_dampen(float) : "Blob min streak speed dampen" : "500" : "The minimum speed dampening while streaking."
+	max_streak_speed_dampen(float) : "Blob max streak speed dampen" : "1000" : "The maximum speed dampening while streaking."
+	start_radius_min(float) : "Blob starting radius min" : "0.5" : "The minimum starting radius of the sprayed blobs."
+	start_radius_max(float) : "Blob starting radius max" : "0.5" : "The maximum starting radius of the sprayed blobs."
+	end_radius_min(float) : "Blob ending radius min" : "0.7" : "The minimum ending radius of the sprayed blobs."
+	end_radius_max(float) : "Blob ending radius max" : "0.7" : "The maximum ending radius of the sprayed blobs."
+	radius_grow_time_min(float) : "Blob radius grow time min" : "1.0" : "The minimum time taken for the radius of the sprayed blobs to grow from starting radius to ending radius."
+	radius_grow_time_max(float) : "Blob radius grow time max" : "1.0" : "The maximum time taken for the radius of the sprayed blobs to grow from starting radius to ending radius."
+
+	input Start(void) : "Tell the paint sprayer to start spraying."
+	input Stop(void) : "Tell the paint sprayer to stop spraying."
+	input ChangePaintType(integer) : "Change the type of paint being sprayed."
+]
+
+@PointClass base(Targetname,Angles) studio("models/props/futbol.mdl") = prop_paint_bomb : "Paint bomb that explodes on impact."
+[
+	//Paint bomb
+	PaintType(choices) : "Paint Type" : 3 :
+	"The type of paint to explode." = 
+	[
+		0 : "Bounce"
+		1 : "Stick"
+		2 : "Speed"
+		3 : "Erase"
+	]
+	
+	BombType(choices) : "Bomb Type" : 0 :
+	"The type of explosion." = 
+	[
+		0 : "Dry Bomb"
+		1 : "Wet Bomb"
+	]
+
+	allowfunnel(boolean) : "Allow Portal Funneling" : 1 : "Whether or not this object should auto-funnel into a portal."
+
+	input  Dissolve(void) : "Dissolves the paint bomb."
+	input  EnablePortalFunnel(void) : "Enable portal funneling behavior."
+	input  DisablePortalFunnel(void) : "Disable portal funneling behavior."
+	
+	output OnFizzled(void) : "Fired when a paint bomb is fizzled."
+]
+
+
+@PointClass base(Item) studio("models/items/healthkit.mdl") = item_paint_power_pickup : "Paint Ammo"
+[
+	// Paint power pickup
+	PaintType(choices) : "Paint Type" : 0 :
+	"The paint power of the pickup." =
+	[
+		0 : "Bounce"
+		1 : "Stick"
+		2 : "Speed"
+	]
+]
+
+@SolidClass base(Trigger, Targetname) = trigger_paint_cleanser : 
+	"A trigger volume that fizzles paint powers from the gun when the player touches it."
+[
+]
+
+@PointClass base(Weapon) studio("models/weapons/w_portalgun.mdl") = weapon_paintgun : "Paintgun" []
+
+@PointClass base(Targetname) = point_survey : "Displays a survey to the player"
+[
+	surveyname(string) : "Survey Name" : : "The name of the survey keyvalues file."
+	input ShowSurvey(string) : "Displays the survey."
+	output OnSurveyComplete(void) : "Fired when the player finishes a survey."
+]
+
+@PointClass base(Targetname, Angles) studio("models/props/autoportal_frame/autoportal_frame.mdl") = portal_race_checkpoint : "Checkpoint for race maps."
+[
+	UniDirectional(boolean) : "One Way Checkpoint?" : "1" : "Can the checkpoint be activated only from its front side?"
+	ResetTime(float) : "Reset Time" : "5.0" : "The time it takes for the checkpoint to reset after activation"
+	
+	output OnCheckpointActivated(void) : "Fired when the checkpoint is activated by the player."
+	output OnCheckpointReset(void) : "Fired when the checkpoint is reset after being activated by the player."
+	
+	input Activate(void) : "Activates the checkpoint."
+	input CancelActivate(void) : "Cancels the checkpoint's activated state."
+	input Lock(void) : "Locks the checkpoint from being activated."
+	input Unlock(void) : "The checkpoint can be activated."
+]

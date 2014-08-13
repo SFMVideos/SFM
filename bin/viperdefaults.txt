@@ -1,0 +1,23 @@
+ViperData
+{
+	"port"						"7777"
+	"game"						""
+	"resourcedir"				""
+	"copylog"					""
+	"debug"						"0"
+	"addregardless"				"1"
+
+	"gameaudio"					"Realtek HD Audio input"
+	"gamedevice"				"Hauppauge WinTV 418 Video Capture"
+	"gameres"					""
+	"gamefps"					"60"
+	
+	"camaudio"					"USB Audio Device"
+	"camdevice"					"Logitech QuickCam Pro 9000"
+	"camres"					"640x480"
+	"camfps"					"60"
+	
+	"bioskip"					"0"
+	"deletelocallog"			"0"
+	"showdeletestreambutton"	"0"
+}
