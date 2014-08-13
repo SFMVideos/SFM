@@ -1,5 +1,4 @@
-[SFM] Videos May Be Used/Edited By the Following People:
-Mesagoppinmypants
+[SFM] Videos May Be Used/Edited By People Chosen by Iosnowore Kun.
 ===
 How To Use/Edit the SFM Video
 ===
