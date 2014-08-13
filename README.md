@@ -1,6 +1,6 @@
+*This May Only Be Edited By Gene and Ryan Pressinger.*
 [SFM] Videos 
 ===
-*This May Only Be Edited By Gene and Ryan Pressinger.*
 
 How To Use/Edit the SFM Video
 ===
@@ -9,13 +9,15 @@ How To Use/Edit the SFM Video
 3. Open up C:Drive/Program Files (x86)/Steam/SteamApps/common/SourceFilmmaker/game.
 4. Paste the usermod and workshop into the game folder.
 
-Make Sure Your Changes Are Synced with GitHub's Version
+How To Upload Your Changes To GitHub
 ===
-To Upload Your Changes To GitHub:
 1. Copy and Paste usermod and workshop in your game folder.
 2. Paste them in Documents/GitHub/SFM.
 3. Open GitHub Windows.
 4. Press Commit Uncommited Changes.
 5. Press Sync.
 
-
+The Software You'll Need
+===
+1. Source Film Maker
+2. Windows GitHub
