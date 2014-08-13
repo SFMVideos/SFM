@@ -1,0 +1,188 @@
+//====== Copyright © 1996-2007, Valve Corporation, All rights reserved. =======
+//
+// Purpose: Half-Life 2 game definition file (.fgd)
+//	    Margarita version!
+//
+//=============================================================================
+
+@include "base.fgd"
+
+// All following entries are for Margarita directed design experiment
+@BaseClass base(Targetname) = ai_addon
+[
+	target(target_destination) : "Host NPC"
+	input	Install(target_destination) : "Install this AddOn to the specified NPC"
+	input	Remove(target_destination): "Remove this AddOn from the NPC it is attached to"
+]
+
+@PointClass base(ai_addon) studio("models/props_junk/sawblade001a.mdl") = ai_addon_saw
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/propeller.mdl") = ai_addon_propeller
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/shield_generator.mdl")= ai_addon_shield
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/dart_gun.mdl")= ai_addon_dartgun
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/chaingun.mdl")= ai_addon_minigun
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/rocket_launcher.mdl")= ai_addon_rpg
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/mortar.mdl") = ai_addon_mortar
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/brain_tank.mdl") = ai_addon_brain
+[
+]
+
+@PointClass base(ai_addon) studio("models/addons/bomb_hat.mdl") = ai_addon_bomb
+[
+	Target(target_destination) : "Bomb target"
+	TriggerRange(float) : "Trigger range" : "240.0" : "Distance from target to trigger bomb"
+	DetonationTime(float) : "Detonation time" : "5" : "Time to countdown before detonation after triggered"
+	MaxEscorts(float) : "Maximum escorts" : "2" : "Maximum number of squad members to recruit for escort"
+
+	input SetTarget( string ) : "Change target"
+	
+	output OnDetonate(void) : "Fires when this AddOn is detonated by the owner."
+]
+
+@NPCClass base(BaseNPC) studio("models/soldier_mid.mdl") = npc_soldier_mid : "Mid-size margarita soldier"
+[
+	input skin(float) : "Change texture skin"
+	input Snarl(void) : "Make this soldier snarl"
+	input CreateAddon( string ) : "Create and attach addon"
+]
+
+@NPCClass base(BaseNPC, TalkNPC, PlayerCompanion) studio("models/soldier_mid.mdl") = npc_composite_companion : "Composite Companion"
+[
+	input skin(float) : "Change texture skin"
+	input Snarl(void) : "Make this soldier snarl"
+	input CreateAddon( string ) : "Create and attach addon"
+]
+
+@NPCClass base(BaseNPC) studio("models/soldier_large.mdl") = npc_soldier_large : "Large margarita soldier"
+[
+	input skin(float) : "Change texture skin"
+	input Snarl(void) : "Make this soldier snarl"
+	input CreateAddon( string ) : "Create and attach addon"
+]
+
+@NPCClass base(BaseNPC) studio("models/soldier_fast.mdl") = npc_soldier_fast : "Fast margarita soldier"
+[
+	input skin(float) : "Change texture skin"
+	input Snarl(void) : "Make this soldier snarl"
+	input CreateAddon( string ) : "Create and attach addon"
+]
+
+
+
+@PointClass base(Targetname) = ai_addon_factory
+[
+
+
+	target(target_destination) : "Target NPC or class" : ""
+	
+	StartDisabled(boolean) : "Start Disabled" : 0
+	
+	option1(choices) : "Option 1" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight1(float) : "Option 1 weight" : 0
+	
+	option2(choices) : "Option 2" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight2(float) : "Option 2 weight" : 0
+	
+	option3(choices) : "Option 3" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight3(float) : "Option 3 weight" : 0
+	
+	option4(choices) : "Option 4" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight4(float) : "Option 4 weight" : 0
+	
+	option5(choices) : "Option 5" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight5(float) : "Option 5 weight" : 0
+	
+	option6(choices) : "Option 6" : "ai_addon_dartgun" =
+	[
+		"ai_addon_dartgun" : "dartgun"
+		"ai_addon_minigun" : "minigun"
+		"ai_addon_propeller" : "propeller"
+		"ai_addon_bomb" : "bomb"
+		"ai_addon_shield" : "shield"
+		"ai_addon_rpg" : "RPG"
+	]
+	weight6(float) : "Option 6 weight" : 0
+]
+
+@PointClass base(Targetname,EnableDisable) = ai_addon_builder
+[
+	NPCName(string) : "NPC name" : "" : "Name to give built NPCs"
+	AddOnName(string) : "Add on name" : "" : "Name to give built addons"
+	NpcPoints(integer) : "NPC Points" : 10 : "Points available to spend for NPCs"
+	AddonPoints(integer) : "Addon Points" : 10 : "Points available to spend for addons"
+	input Execute(void) : ""
+	output OnCreateNpc(void) : "Fires when an NPC is created."
+	output OnFailedToCreateNpc(void) : "Fires when an NPC fails to be created."
+	output OnCreateAddon(void) : "Fires when an Addon is created."
+	output OnFailedToCreateAddon(void) : "Fires when an Addon fails to be created."
+]
+
+
+@PointClass wirebox(mins, maxs) base(info_node_link_controller) = info_node_link_controller_margarita
+[
+	spawnflags( Flags ) =
+	[
+		1 : "Allow door users even when off" : 0
+	]
+]
+

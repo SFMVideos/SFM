@@ -1,0 +1,56 @@
+//====== Copyright © 1996-2005, Valve Corporation, All rights reserved. =======
+//
+// Purpose: Episode 2 2 game definition file (.fgd) 
+//
+//=============================================================================
+
+@include "halflife2.fgd"
+
+@PointClass = demo1_entity : 
+	"Demo 1 : An entity which shakes entities near it" 
+[
+	amplitude(float) : "Amplitude" : "40" : "The magnitude of the force to apply to nearby physics objects"
+	radius(float) : "Effect Radius" : "500" : "The radius around this entity in which to affect objects."
+]
+
+
+
+@PointClass sphere( radius ) iconsprite("editor/env_shake.vmt") = demo2_entity : 
+	"Demo 2 : An entity which shakes entities near it" 
+[
+	amplitude(float) : "Amplitude" : "40" : "The magnitude of the force to apply to nearby physics objects"
+	radius(float) : "Effect Radius" : "150" : "The radius around this entity in which to affect objects."
+	effect_name(string) : "Particle System Name" : "" : "Particle system to periodically emit at the entity origin"
+	effect2_name(string) : "Particle System Name #2" : "" : "2nd Particle system to periodically emit at the entity origin"
+]
+
+
+
+@PointClass sphere( radius ) iconsprite("editor/env_shake.vmt") = demo3_entity : 
+	"Demo 3 : An entity which shakes entities near it" 
+[
+	amplitude(float) : "Amplitude" : "40" : "The magnitude of the force to apply to nearby physics objects"
+	radius(float) : "Effect Radius" : "150" : "The radius around this entity in which to affect objects."
+	effect_name(string) : "Particle System Name" : "" : "Particle system to periodically emit on nearby objects"
+]
+
+
+
+@SolidClass sphere( radius ) base( Targetname ) = demo4_entity : 
+	"Demo 4 : An entity which shakes entities near it" 
+[
+	amplitude(float) : "Amplitude" : "40" : "The magnitude of the force to apply to nearby physics objects"
+	radius(float) : "Effect Radius" : "150" : "The radius around this entity in which to affect objects."
+
+	input ToggleShake(void) : "Toggle the shaking on and off"
+	output OnPickedUp(void) : "Fired when the entity is picked up"
+]
+
+
+@PointClass sphere( radius ) studio() base( Targetname, Studiomodel ) = demo5_entity : 
+	"Demo 5 : An entity which shakes entities near it" 
+[
+	amplitude(float) : "Amplitude" : "40" : "The magnitude of the force to apply to nearby physics objects"
+	radius(float) : "Effect Radius" : "150" : "The radius around this entity in which to affect objects."
+	effect_name(string) : "Particle System Name" : "" : "Particle system to periodically emit on nearby objects"
+]
