@@ -1,5 +1,4 @@
-*This May Only Be Edited By Gene and Ryan Pressinger.*
-[SFM] Videos 
+[SFM] YouTube Videos 
 ===
 
 How To Use/Edit the SFM Video
@@ -17,7 +16,11 @@ How To Upload Your Changes To GitHub
 4. Press Commit Uncommited Changes.
 5. Press Sync.
 
-The Software You'll Need
+What Software You'll Need
 ===
 1. Source Film Maker
 2. Windows GitHub
+
+These Videos Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
+
+*This README may only be modified by Gene and Ryan Pressinger.*
