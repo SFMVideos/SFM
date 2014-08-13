@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGG\Starwars\Clonetrooper\ARC_xtra_Captain"
+	"$bumpmap" "models\SGG\Starwars\Clonetrooper\xtraparts_normal"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongexponenttexture" "models\SGG\Starwars\Clonetrooper\xtraparts_exp"
+	"$phongexponent" "0"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}

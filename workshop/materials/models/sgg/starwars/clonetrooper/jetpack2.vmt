@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGG\Starwars\Clonetrooper\jetpack2"
+	"$bumpmap" "models\SGG\Starwars\Clonetrooper\jetpack2_normal"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongexponenttexture" "models\SGG\Starwars\Clonetrooper\jetpack2_exp"
+	"$phongexponent" "0"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}
