@@ -1,4 +1,4 @@
-[SFM] Videos May Be Used/Edited By People Chosen by Iosnowore Kun.
+[SFM] Videos May Be Used/Edited By People Chosen by Iosnowore Kun and Ryan Pressinger.
 ===
 How To Use/Edit the SFM Video
 ===
