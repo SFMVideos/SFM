@@ -1,5 +1,9 @@
 [SFM] YouTube Videos 
 ===
+Staff:
+Gene Pressinger - Project Leader
+Ryan Pressinger - Developer
+Alan Pressinger - Scripter
 
 How To Use/Edit the SFM Video
 ===
@@ -22,6 +26,8 @@ What Software You'll Need
 1. Source Film Maker
 2. Windows GitHub
 
+
+
 These Videos Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
 
-*This README may only be modified by Gene and Ryan Pressinger.*
+*This README may only be modified by Gene, Alan ,and Ryan Pressinger.*
