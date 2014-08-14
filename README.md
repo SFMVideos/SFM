@@ -1,6 +1,7 @@
 [SFM] YouTube Videos 
 ===
-Staff:
+Current Staff Members
+===
 - [Project Leader] Gene Pressinger
 - [Developer] Ryan Pressinger
 - [Scripter] Alan Pressinger
