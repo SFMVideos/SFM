@@ -27,6 +27,10 @@ What Software You'll Need
 1. Source Film Maker
 2. Windows GitHub (Recommended)
 
+How To Join the Team
+===
+You can join the team by emailing us an application. *(Iosnowore@gmail.com)*
+
 How Non-Staff Members Can Help
 ===
 1. Report bugs.

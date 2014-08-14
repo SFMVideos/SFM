@@ -1,0 +1,12 @@
+"vertexlitGeneric"
+{
+"$basetexture" "Models/Lillwasa/SW/snowtrooper/game_TroopSnow_A_Color"
+"$halflambert" 1
+"$bumpmap" "Models/Lillwasa/SW/snowtrooper/game_TrooperSnow_MORMAL_A"
+"$phongexponenttexture" "Models/Lillwasa/SW/snowtrooper/game_TroopSnow_A_SPEC"
+"$nocull" 1
+
+"$phong" "1"
+"$phongboost"	"1.25"
+"$phongfresnelranges"	"[.15 .5 1]"
+}

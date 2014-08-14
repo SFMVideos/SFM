@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/starwars/at-at/imp_walk_atat"
+	"$bumpmap" "models/starwars/at-at/imp_walk_atat_NRM"
+}

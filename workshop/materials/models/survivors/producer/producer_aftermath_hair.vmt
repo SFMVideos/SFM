@@ -1,0 +1,16 @@
+VertexLitGeneric
+{
+$basetexture "models\survivors\producer\producer_aftermath_hair_color"
+$bumpmap "models\survivors\producer\producer_aftermath_hair_normal"
+$translucent 1
+$nocull 1
+$phong 1
+$phongboost "1.4"
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.2 .5 5]"
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+$lightwarptexture "models\survivors\producer\producer_aftermath_head_wrp"
+}

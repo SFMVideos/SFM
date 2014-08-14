@@ -1,0 +1,1 @@
+Save your sessions in this directory.
