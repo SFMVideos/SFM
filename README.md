@@ -33,7 +33,11 @@ How Non-Staff Members Can Help
 2. Add custom audio and mobile files.
 3. Work on fixing bugs in the issues section.
 
+Branches
+===
+[SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
+The other is release, this is where there will be no bugs or anything wrong with the video
 
-These Videos Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
+The Videos Made May/Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Gene, Alan ,and Ryan Pressinger.*
