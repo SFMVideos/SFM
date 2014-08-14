@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"props_dim/powertower_a"
+	"$surfaceprop"	"default"
+}
