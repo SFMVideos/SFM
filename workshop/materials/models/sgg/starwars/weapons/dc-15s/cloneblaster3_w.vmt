@@ -1,8 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\SGG\Starwars\weapons\DC-15s\cloneblaster3_w"
-	"$halflambert" "1"
-	"$phong" "1"
-	"$phongboost"	".05"
-	"$phongfresnelranges"	"[0.25 0.5 1]"
-}
