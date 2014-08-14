@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\SGG\Starwars\weapons\DC15\barrel"
+	"$bumpmap" "models\SGG\Starwars\weapons\DC15\barrel_normal"
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongexponenttexture" "models\SGG\Starwars\weapons\DC15\barrel_exp"
+	"$phongexponent" "0"
+	"$phongboost"	".2"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}
