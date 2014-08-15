@@ -1,0 +1,8 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "props_dim/diffuse"
+	"$bumpmap" "props_dim/diffuse_n"
+        "$ssbump" "1"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+}
