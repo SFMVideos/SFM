@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "props_dim/diffus"
+	"$nocull" "1"
+	"$bumpmap" "props_dim/diffus_n"
+	$translucent 1
+       	 "$ssbump" "1"
+	"$surfaceprop" "grass"
+	"%keywords" "tf"
+}
