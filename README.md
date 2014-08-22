@@ -4,7 +4,6 @@ Current Staff Members
 ===
 - [Project Leader] Gene Pressinger
 - [Developer] Ryan Pressinger
-- [Scripter] Alan Pressinger
 
 How To Use/Edit the SFM Video
 ===
