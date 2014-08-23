@@ -2,8 +2,8 @@
 ===
 Current Staff Members
 ===
-- [Project Leader] Gene Pressinger
-- [Developer] Ryan Pressinger
+- [Project Leader] Mesagoppinmypants/Iosnowore-Kun
+- [Developer] RyanPressinger
 
 How To Use/Edit the SFM Video
 ===
@@ -11,7 +11,7 @@ How To Use/Edit the SFM Video
 2. Copy and paste usermod and workshop.
 3. Open up C:Drive/Program Files (x86)/Steam/SteamApps/common/SourceFilmmaker/game.
 4. Paste the usermod and workshop into the game folder.
-5. Open firstvideo.dmx in the saved sessions folder.
+5. Open one of the .dmx files in the saved sessions folder.
 
 How To Upload Your Changes To GitHub
 ===
