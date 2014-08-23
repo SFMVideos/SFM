@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lt_c/sci_fi/briefcase"
+	"$bumpmap" 	"models/lt_c/sci_fi/briefcase_n"
+	"$halflambert" "1"
+
+	"$normalmapalphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .1 .1 .1 ]"
+	"$envmapsaturation" ".01"
+	"$envmapcontrast" "0.1"
+//	"$envmapFresnel" "1"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/lt_c/sci_fi/briefcase_exp"
+//	"$phongexponent" 5
+	"$phongboost" "20"
+	"$phongfresnelranges"	"[ .3 1.2 8]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "8"				
+	"$rimlightboost" ".3"
+	"$rimmask" "1"
+}
