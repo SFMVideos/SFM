@@ -1,0 +1,25 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/lt_c/sci_fi/shuttle/shuttle_main_4"
+	"$bumpmap" 	"models/lt_c/sci_fi/shuttle/shuttle_main_n"
+	"$halflambert" "1"
+
+	"$basetexturealphaenvmapmask" 1
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .5 .5 .5 ]"
+	"$envmapsaturation" ".01"
+	"$envmapcontrast" "0.1"
+	"$envmapFresnel" "1"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/lt_c/sci_fi/shuttle/shuttle_main_exp"
+//	"$phongexponent" 5
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[ .3 1.2 8]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "8"				
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

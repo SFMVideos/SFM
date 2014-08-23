@@ -1,0 +1,9 @@
+"UnLitGeneric"
+{
+	$basetexture "models\lt_c\sci_fi\shuttle\holo_decals"
+	// $additive 1
+	$nocull 1
+	$translucent 1
+}
+
+
