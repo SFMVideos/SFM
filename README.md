@@ -39,7 +39,7 @@ How Non-Staff Members Can Help
 Branches
 ===
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
-The other is release, this is where there will be no bugs or anything wrong with the video
+The other is release, this is where there will be no bugs or anything wrong with the video.
 
 The Videos Made May/Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
 
