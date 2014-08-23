@@ -1,6 +1,10 @@
-#######################
-## Source Film Maker ##
-#######################
+##############################
+## Source Film Maker Videos ##
+##############################
 
-.bsp
+.bak
 .autosave
+videopart1.autosave
+videopart2.autosave
+*.bak
+*.autosave
