@@ -39,7 +39,7 @@ How Can Non-Staff Members Help?
 2. Add custom audio and mobile files.
 3. Work on fixing bugs in the issues section.
 
-What Do the Different Types of Branches Mean?
+What Are the Different Types of Branches and What Do They Mean?
 ===
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
 The other is release, this is where there will be no bugs or anything wrong with the video.
@@ -51,3 +51,11 @@ Hopefully sometime in November of 2014.
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Gene and Ryan Pressinger.*
+
+Here's an example:
+
+```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
