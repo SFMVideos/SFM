@@ -46,7 +46,7 @@ The other is release, this is where there will be no bugs or anything wrong with
 
 When Will The First Video Be Finished?
 ==
-Hopefully sometime in November of 2014.
+Hopefully sometime by November of 2014.
 
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
