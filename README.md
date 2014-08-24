@@ -41,6 +41,10 @@ Branches
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
 The other is release, this is where there will be no bugs or anything wrong with the video.
 
+When Will The First Video Be Finished?
+==
+Hopefully sometime in November of 2014.
+
 The Videos Made May/Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Gene and Ryan Pressinger.*
