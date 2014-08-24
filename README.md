@@ -51,11 +51,3 @@ Hopefully sometime in November of 2014.
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Gene and Ryan Pressinger.*
-
-Here's an example:
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
