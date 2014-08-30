@@ -20,7 +20,7 @@ Below Are Our Top 8 FAQs:
 2. Paste them in Documents/GitHub/SFM.
 3. Open GitHub Windows.
 4. Press Commit Uncommited Changes.
-5. Press Sync and wait for it to finish. (Depends on how many things you changed);
+5. Press Sync and wait for it to finish. *(The time depends on how many things you've changed.)*
 
 4. What Software Will I Need?
 -----------------------------
