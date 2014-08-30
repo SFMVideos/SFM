@@ -6,7 +6,6 @@ Below Is Our FAQ:
 Who Are The Current Staff Members?
 ===
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
-- [Developer] RyanPressinger
 
 How Do I Use/Edit the SFM Video?
 ===
@@ -50,4 +49,4 @@ Hopefully sometime by November of 2014.
 
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
-*This README and SCRIPT.txt may only be modified by Gene and Ryan Pressinger.*
+*This README and SCRIPT.txt may only be modified by Iosnowore-Kun/Mesagoppinmypants.
