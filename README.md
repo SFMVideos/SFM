@@ -20,7 +20,7 @@ Below Are Our Top 8 FAQs:
 2. Paste them in Documents/GitHub/SFM.
 3. Open GitHub Windows.
 4. Press Commit Uncommited Changes.
-5. Press Sync and wait for it to finish.
+5. Press Sync and wait for it to finish. (Depends on how many things you changed);
 
 4. What Software Will I Need?
 -----------------------------
@@ -28,22 +28,21 @@ Below Are Our Top 8 FAQs:
 2. Windows GitHub *(https://windows.github.com)*
 
 5. How Can I Join the Team?
-------------------------
+---------------------------
 You can join the team by emailing us an application. *(Iosnowore@gmail.com)*
 
 6. How Can Non-Staff Members Help?
--------------------------------
+----------------------------------
 1. Report bugs.
 2. Add custom audio and mobile files.
 3. Work on fixing bugs in the issues section.
-
-7. What Are the Different Types of Branches and What Do They Mean?
----------------------------------------------------------------
+4. What Are the Different Types of Branches and What Do They Mean?
+------------------------------------------------------------------
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
 The other is release, this is where there will be no bugs or anything wrong with the video.
 
 8. When Will The First Video Be Finished?
---------------------------------------
+-----------------------------------------
 Hopefully sometime by November of 2014.
 
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
