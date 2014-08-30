@@ -36,34 +36,36 @@ FAQ #7: What Staff Member Positions Are Open?
 The job of a Project Developer is to develop the actual video.
 
 Requirements:
-- Intermediate knowledge of Source Filmmaker.
-- Knowledge of file arrangement.
-- Knowledge of .DMX files.
+- Advanced knowledge of Source Filmmaker.
+- Advanced Knowledge of file arrangement.
+- Advanced Knowledge of .DMX files.
 
 ### [Content Developer]
 The job of a Content Developer is to add mobile characters and audio to the project.
 
 Requirements:
-- Knowledge of how the Steam Workshop for SFM works.
-- Knowledge of file arrangment.
-- Knowledge of audio files *(.MP3, .WAV, .MPEG-4, ect.)*
+- Advanced Knowledge of how the Steam Workshop for SFM works.
+- Advanced Knowledge of file arrangement.
+- Advanced Knowledge of converting audio files *(.MP3, .WAV, .MPEG-4, ect.)*
 
 ### [Quality Assurance]
 The job of a Quality Assurance member is to report bugs and enhancements in the issues tab.
 
 Requirements:
-- Knowledge of GitHub and GitHub Windows.
+- Basic Knowledge of GitHub and GitHub Windows.
+- Basic Knowledge of Sourcefilm Maker
 
 ### [Social Media Manager] / [Services Manager]
 The job of a Social Media Manager/Services Manager will be managing our social media sites such as Facebook,
 Twitter, YouTube, Instagram, Quakenet, Ect.
 
 Requirements:
-- Knowing all functions of YouTube.
-- Knowledge of Facebook and Twitter.
-- Very good grammar and spelling skills.
+- Advanced Knowledge of YouTube.
+- Basic Knowledge of Facebook and Twitter.
+- Advanced grammar and spelling skills.
 - Advanced knowledge of Sony Vegas Pro 13.
-- Knowledge of Photoshop CS6.
+- Basic Knowledge of Photoshop CS6.
+- Basic Knowledge of Quakenet/IRC
 
 ### [Movie Scripter]
 The job of a Movie Scripter is scripting the story line of the movie.
