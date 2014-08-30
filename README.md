@@ -2,11 +2,11 @@
 ====================
 Below Are Our Top 10 FAQs:
 
-1. Who Are The Current Staff Members?
+FAQ #1: Who Are The Current Staff Members?
 -------------------------------------
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
 
-2. How Do I Use/Edit the SFM Video?
+FAQ #2: How Do I Use/Edit the SFM Video?
 -----------------------------------
 1. Open up Documents/GitHub/SFM.
 2. Copy and paste usermod and workshop.
@@ -14,7 +14,7 @@ Below Are Our Top 10 FAQs:
 4. Paste the usermod and workshop into the game folder.
 5. Open one of the .dmx files in the saved sessions folder.
 
-3. How To Upload My Changes to GitHub?
+FAQ #3: How To Upload My Changes to GitHub?
 --------------------------------------
 1. Copy and Paste usermod and workshop in your game folder.
 2. Paste them in Documents/GitHub/SFM.
@@ -22,30 +22,31 @@ Below Are Our Top 10 FAQs:
 4. Press Commit Uncommited Changes.
 5. Press Sync and wait for it to finish. *(The time depends on how many things you've changed.)*
 
-4. What Software Will Staff Members Need?
+FAQ #4: What Software Will Staff Members Need?
 -----------------------------
 1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
 2. GitHub for Windows *(https://windows.github.com)*
 
-5. How Can I Join the Team?
+FAQ #5 How Can I Join the Team?
 ---------------------------
 You can join the team by emailing us an application. *(Iosnowore@gmail.com)*
 
-6. How Can Non-Staff Members Help?
+FAQ #6 How Can Non-Staff Members Help?
 ----------------------------------
 1. Report bugs.
 2. Add custom audio and mobile files.
 3. Work on fixing bugs in the issues section.
-4. What Are the Different Types of Branches and What Do They Mean?
+
+FAQ #7: What Are the Different Types of Branches and What Do They Mean?
 ------------------------------------------------------------------
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
 The other is release, this is where there will be no bugs or anything wrong with the video.
 
-8. When Will The First Video Be Finished?
+FAQ #8: When Will The First Video Be Finished?
 -----------------------------------------
 Hopefully sometime by November of 2014.
 
-9. What Staff Member Positions Are Open?
+FAQ #9: What Staff Member Positions Are Open?
 ----------------------------------------
 ### [Project Developer]
 The job of a Project Developer is to develop the actual video.
@@ -69,17 +70,18 @@ The job of a Quality Assurance member is to report bugs and enhancements in the 
 Requirments:
 - Knowledge of GitHub and GitHub Windows.
 
-### [Social Media Manager]
+### [Social Media Manager] / [Advertisment Manager]
 The job of a social media manager will be managing our social media sites such as Facebook,
 Twitter, YouTube, Instagram, Ect.
 
 Requirements:
 - Knowing all functions of YouTube.
-- Have knowledge of Facebook and Twitter.
-- Have VERY good grammar and spelling skills.
-- Having a lot of free time
+- Knowledge of Facebook and Twitter.
+- Very good grammar and spelling skills.
+- Advanced knowledge of Sony Vegas Pro 13.
+- Knowledge of Photoshop CS6
 
-10. Why Did You Guys Start Making Source Filmmaker Videos?
+FAQ #10: Why Did You Guys Start Making Source Filmmaker Videos?
 ----------------------------------------------------------
 We started making Source Filmmaker videos because we felt like a lot of people liked to watch the amature ones on YouTube
 but we take it to the next level. We have a whole team working on one and there will be more and more non-stop episodes
