@@ -49,4 +49,4 @@ Hopefully sometime by November of 2014.
 
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
-*This README and SCRIPT.txt may only be modified by Iosnowore-Kun/Mesagoppinmypants.
+*This README and SCRIPT.txt may only be modified by Iosnowore-Kun/Mesagoppinmypants.*
