@@ -106,5 +106,5 @@ Staff FAQ #3: How To Upload My Changes to GitHub?
 
 Staff FAQ #4: What Are the Different Types of Branches and What Do They Mean?
 -----------------------------------------------------------------------------
-[SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
-The other is release, this branch will be bug free with no problems/crashes.
+[SFM] Videos has 2 branches. One branch is the *master* branch that has the most updated stuff on it.
+The other branch is the *release*, this branch is bug free with no problems/crashes.
