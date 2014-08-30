@@ -1,6 +1,6 @@
 [SFM] YouTube Videos 
 ====================
-Below Are Our Top 8 FAQs:
+Below Are Our Top 10 FAQs:
 
 1. Who Are The Current Staff Members?
 -------------------------------------
@@ -44,6 +44,32 @@ The other is release, this is where there will be no bugs or anything wrong with
 8. When Will The First Video Be Finished?
 -----------------------------------------
 Hopefully sometime by November of 2014.
+
+9. What Staff Member Positions Are Open?
+----------------------------------------
+### [Developer]
+The job of a developer is to develop the actual video.
+
+### [Content Developer]
+The job of a content developer is to add mobile characters and audio to the project.
+
+### [Quality Assurance]
+The job of a quality assurance member is to report bugs and enhancements in the issues tab.
+
+10. What Knowledge Do You Have To Have To Become a Team Member?
+---------------------------------------------------------------
+### [Developer]
+- 1. Intermediate knowledge of source filmmaker
+- 2. Knowledge of file arrangment
+- 3. Knowledge of .dmx files
+
+### [Content Developer]
+- 1. Knowledge of how the steam workshop works
+- 2. Knowledge of file arrangment
+- 3. Knowledge of audio files *(.mp3, .wav, ect.)*
+
+### [Quality Assurance]
+- 1. Knowledge of GitHub and GitHub windows
 
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
