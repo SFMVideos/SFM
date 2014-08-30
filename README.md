@@ -70,8 +70,8 @@ The job of a Quality Assurance member is to report bugs and enhancements in the 
 Requirments:
 - Knowledge of GitHub and GitHub Windows.
 
-### [Social Media Manager] / [Advertisment Manager]
-The job of a social media manager will be managing our social media sites such as Facebook,
+### [Social Media Manager] / [Services Manager]
+The job of a social media manager/services manager will be managing our social media sites such as Facebook,
 Twitter, YouTube, Instagram, Ect.
 
 Requirements:
@@ -80,6 +80,12 @@ Requirements:
 - Very good grammar and spelling skills.
 - Advanced knowledge of Sony Vegas Pro 13.
 - Knowledge of Photoshop CS6
+
+### [Scripter]
+The job of a scripter is scripting the story of the movie.
+
+Requirements:
+- Great imagination.
 
 FAQ #10: Why Did You Guys Start Making Source Filmmaker Videos?
 ----------------------------------------------------------
