@@ -69,6 +69,22 @@ The job of a Quality Assurance member is to report bugs and enhancements in the 
 Requirments:
 - Knowledge of GitHub and GitHub Windows.
 
+### [Social Media Manager]
+The job of a social media manager will be managing our social media sites such as Facebook,
+Twitter, YouTube, Instagram, Ect.
+
+Requirements:
+- Knowing all functions of YouTube.
+- Have knowledge of Facebook and Twitter.
+- Have VERY good grammar and spelling skills.
+- Having a lot of free time
+
+10. Why Did You Guys Start Making Source Filmmaker Videos?
+----------------------------------------------------------
+We started making Source Filmmaker videos because we felt like a lot of people liked to watch the amature ones on YouTube
+but we take it to the next level. We have a whole team working on one and there will be more and more non-stop episodes
+for your enjoyment.
+
 The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Iosnowore-Kun/Mesagoppinmypants.*
