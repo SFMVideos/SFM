@@ -73,8 +73,8 @@ Requirements:
 - Able to put thoughts into words easily.
 - A lot of extra free time.
 
-Below Will Be the Top 10 Staff FAQ:
-------------------------------------
+Below Are The Top 4 Staff Member Frequently Asked Questions
+-----------------------------------------------------------
 Staff FAQ #1: What Software Will Staff Members Need?
 ----------------------------------------------------
 1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
