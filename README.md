@@ -36,17 +36,8 @@ FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?
 - [Services Manager] OPEN
 - [Movie Scripter] OPEN
 
-FAQ #7: What Are The Jobs of Each Staff Member?
------------------------------------------------
-### [Project Leader]
-The job of a Project Leader is to oversee all of the staff members.
-
-Requirments:
-- Advanced leadership skills.
-- Advanced knowledge of Source Filmmaker.
-- Advanced Knowledge of GitHub and GitHub Windows.
-- Advanced Knowledge of File Arrangement.
-
+FAQ #7: What Are The Requirements For Each Staff Position?
+----------------------------------------------------------
 ### [Project Developer]
 The job of a Project Developer is to develop the actual video.
 
