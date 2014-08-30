@@ -26,12 +26,27 @@ FAQ #5 How Can I Join the Team?
 If you think you have the requirements to join one of the staff positions then you can send us an email
 at *(Iosnowore@gmail.com)* stating which position you want and why.
 
-FAQ #6: Who Are The Current Staff Members?
-------------------------------------------
+FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?
+---------------------------------------------------------------------------
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
+- [Project Developer] OPEN
+- [Content Developer] OPEN
+- [Quality Assurance] OPEN
+- [Social Media Manager] OPEN
+- [Services Manager] OPEN
+- [Movie Scripter] OPEN
 
-FAQ #7: What Staff Member Positions Are Open?
----------------------------------------------
+FAQ #7: What Are The Jobs of Each Staff Member?
+-----------------------------------------------
+### [Project Leader]
+The job of a Project Leader is to oversee all of the staff members.
+
+Requirments:
+- Advanced leadership skills.
+- Advanced knowledge of Source Filmmaker.
+- Advanced Knowledge of GitHub and GitHub Windows.
+- Advanced Knowledge of File Arrangement.
+
 ### [Project Developer]
 The job of a Project Developer is to develop the actual video.
 
