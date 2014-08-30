@@ -22,10 +22,10 @@ Below Are Our Top 10 FAQs:
 4. Press Commit Uncommited Changes.
 5. Press Sync and wait for it to finish. *(The time depends on how many things you've changed.)*
 
-4. What Software Will I Need?
+4. What Software Will Staff Members Need?
 -----------------------------
 1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
-2. Windows GitHub *(https://windows.github.com)*
+2. GitHub for Windows *(https://windows.github.com)*
 
 5. How Can I Join the Team?
 ---------------------------
@@ -47,8 +47,8 @@ Hopefully sometime by November of 2014.
 
 9. What Staff Member Positions Are Open?
 ----------------------------------------
-### [Developer]
-The job of a developer is to develop the actual video.
+### [Project Developer]
+The job of a Project Developer is to develop the actual video.
 
 Requirments:
 - Intermediate knowledge of Source Filmmaker.
@@ -56,15 +56,15 @@ Requirments:
 - Knowledge of .dmx files.
 
 ### [Content Developer]
-The job of a content developer is to add mobile characters and audio to the project.
+The job of a Content Developer is to add mobile characters and audio to the project.
 
 Requirments:
 - Knowledge of how the Steam Workshop for SFM works.
 - Knowledge of file arrangment.
-- Knowledge of audio files *(.mp3, .wav, ect.)*
+- Knowledge of audio files *(mp3, wav, ect.)*
 
 ### [Quality Assurance]
-The job of a quality assurance member is to report bugs and enhancements in the issues tab.
+The job of a Quality Assurance member is to report bugs and enhancements in the issues tab.
 
 Requirments:
 - Knowledge of GitHub and GitHub Windows.
