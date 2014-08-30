@@ -24,8 +24,8 @@ Yes we are in high demand for more team members. *(Read FAQ #5 For More Informat
 
 *FAQ #5 How Can I Join the Team?*
 ---------------------------------
-If you think you have the requirements to join one of the staff positions then you can send us an email
-at *(Iosnowore@gmail.com)* stating which position you want and why.
+If you have all the requirements to join one of the staff positions then you can send us an email
+at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
 
 *FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
