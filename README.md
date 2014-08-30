@@ -47,7 +47,7 @@ Hopefully sometime by November of 2014.
 
 9. What Staff Member Positions Are Open?
 ----------------------------------------
-- [Developer]
+### [Developer]
 The job of a developer is to develop the actual video.
 
 Requirments:
@@ -55,16 +55,15 @@ Requirments:
 - Knowledge of file arrangment.
 - Knowledge of .dmx files.
 
-- [Content Developer]
+### [Content Developer]
 The job of a content developer is to add mobile characters and audio to the project.
 
 Requirments:
-### - [Content Developer]
 - Knowledge of how the Steam Workshop for SFM works.
 - Knowledge of file arrangment.
 - Knowledge of audio files *(.mp3, .wav, ect.)*
 
-- [Quality Assurance]
+### [Quality Assurance]
 The job of a quality assurance member is to report bugs and enhancements in the issues tab.
 
 Requirments:
