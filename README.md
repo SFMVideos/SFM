@@ -1,11 +1,14 @@
 [SFM] YouTube Videos 
 ===
-Current Staff Members
+
+Below Is Our FAQ:
+
+Who Are The Current Staff Members?
 ===
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
 - [Developer] RyanPressinger
 
-How To Use/Edit the SFM Video
+How Do I Use/Edit the SFM Video?
 ===
 1. Open up Documents/GitHub/SFM.
 2. Copy and paste usermod and workshop.
@@ -13,7 +16,7 @@ How To Use/Edit the SFM Video
 4. Paste the usermod and workshop into the game folder.
 5. Open one of the .dmx files in the saved sessions folder.
 
-How To Upload Your Changes To GitHub
+How To Upload My Changes to GitHub?
 ===
 1. Copy and Paste usermod and workshop in your game folder.
 2. Paste them in Documents/GitHub/SFM.
@@ -21,30 +24,30 @@ How To Upload Your Changes To GitHub
 4. Press Commit Uncommited Changes.
 5. Press Sync and wait for it to finish.
 
-What Software You'll Need
+What Software Will I Need?
 ===
-1. Source Film Maker
-2. Windows GitHub (Recommended)
+1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
+2. Windows GitHub *(https://windows.github.com)*
 
-How To Join the Team
+How Can I Join the Team?
 ===
 You can join the team by emailing us an application. *(Iosnowore@gmail.com)*
 
-How Non-Staff Members Can Help
+How Can Non-Staff Members Help?
 ===
 1. Report bugs.
 2. Add custom audio and mobile files.
 3. Work on fixing bugs in the issues section.
 
-Branches
+What Are the Different Types of Branches and What Do They Mean?
 ===
 [SFM] Videos has 2 branches. One branch is the master one that has the most updated stuff on it.
 The other is release, this is where there will be no bugs or anything wrong with the video.
 
 When Will The First Video Be Finished?
 ==
-Hopefully sometime in November of 2014.
+Hopefully sometime by November of 2014.
 
-The Videos Made May/Will Be Uploaded to A YouTube Channel That Will Be Created In The Future.
+The Videos Made May/Will Be Uploaded to a YouTube Channel That Will Be Created In The Future.
 
 *This README and SCRIPT.txt may only be modified by Gene and Ryan Pressinger.*
