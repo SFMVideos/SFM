@@ -1,4 +1,4 @@
-**[SFM] YouTube Videos®**
+﻿**[SFM] YouTube Videos®**
 ====================
 ### Below Are Our Top 7 Frequently Asked Questions.
 
@@ -30,7 +30,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 *FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
-- [Project Developer] OPEN
+- [Project Developer] RyanPressinger
 - [Content Developer] OPEN
 - [Quality Assurance] OPEN
 - [Social Media Manager] OPEN
