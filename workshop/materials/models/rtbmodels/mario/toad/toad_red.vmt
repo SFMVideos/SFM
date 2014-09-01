@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models\RTBModels\Mario\Toad\Toad_Red"
+	"$bumpmap"				"models\RTBModels\Mario\Phong"
+	"$halflambert"			"1"
+
+	"$phong"				"1"
+	"$phongexponent"		"8"
+	"$phongboost"			"0.5"
+	"$phongfresnelranges"	"[.1 1 8]"
+
+	"$rimlight"				"1"
+	"$rimlightboost"		"2"
+}

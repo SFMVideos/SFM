@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\RTBModels\Mario\DonkeyKong\don_body_01"
+	"$halflambert"	"1"
+}

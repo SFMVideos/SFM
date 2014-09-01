@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture"	"models/RTBModels/Mario/DryBones/eyeball"
+	"$iris"			"models/RTBModels/Mario/DryBones/kar_pupil_dark_r"
+	"$halflambert"	"1"
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"			"models\RTBModels\Mario\HammerBro_NSMBW\bros_2"
+	"$bumpmap"				"models\RTBModels\Mario\Phong"
+	"$halflambert"			"1"
+
+	"$phong"				"1"
+	"$phongalbedotint"		"1"
+	"$phongexponent"		"8"
+	"$phongexponenttexture"	"models\RTBModels\Mario\AlbedoTint"
+	"$phongboost"			"2"
+	"$phongfresnelranges"	"[.1 1 8]"
+
+	"$rimlight"				"1"
+	"$rimlightboost"		"2"
+}

@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/apocmodels/godzilla/godzilla2014/godzilla_D"
+	"$bumpmap"     "models/apocmodels/godzilla/godzilla2014/godzilla_N"
+
+	"$phong" "1"
+	"$phongexponent" "27"
+	"$phongboost" "0.8"	
+	"$phongfresnelranges"	"[.08 1 11]"
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "8"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".5"										// Boost for ambient cube component of rim lighting
+}

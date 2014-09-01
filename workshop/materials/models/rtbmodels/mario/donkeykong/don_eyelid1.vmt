@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture"	"models\RTBModels\Mario\DonkeyKong\don_eyelid1"
+	"$halflambert"	"1"
+	"$translucent"	"1"
+}

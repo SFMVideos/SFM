@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props/tv_pack_01/sta_remote_01_diff"	
+
+	$color2 "[ .9 .9 .9 ]"
+	$color2 "{ 255 255 255 }"
+
+}
+
