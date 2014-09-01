@@ -87,6 +87,7 @@ Requirements:
 *Staff FAQ #1: What Software Will Staff Members Need?*
 ------------------------------------------------------
 1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
+3. A GitHub Account *(https://github.com)*
 2. GitHub for Windows *(https://windows.github.com)*
 
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
