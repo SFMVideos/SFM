@@ -1,0 +1,6 @@
+"Eyes"
+{
+	"$basetexture" 	"models\RTBModels\Mario\DonkeyKong\don_eyewhite"
+	"$iris" 		"models\RTBModels\Mario\DonkeyKong\don_eyeball"
+	"$halflambert"	"1"
+}

@@ -1,0 +1,27 @@
+Pet
+{
+    toolwindow
+    {
+        bounds "0.0000000000 0.4611111283 0.5000000000 0.5000000000"
+        windows
+        {
+            panel "properties"
+        }
+    }
+    toolwindow
+    {
+        bounds "0.0000000000 0.0388888903 0.5000000000 0.4222222269"
+        windows
+        {
+            panel "particlesystemdefinitionbrowser"
+        }
+    }
+    toolwindow
+    {
+        bounds "0.5000000000 0.4611111283 0.5000000000 0.5000000000"
+        windows
+        {
+            panel "previewpanel"
+        }
+    }
+}

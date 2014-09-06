@@ -93,7 +93,7 @@ Requirements:
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
 --------------------------------------------------------
 1. Open up Documents/GitHub/SFM.
-2. Copy and paste usermod and workshop.
+2. Copy the files usermod and workshop.
 3. Open up C:Drive/Program Files (x86)/Steam/SteamApps/common/SourceFilmmaker/game.
 4. Paste the usermod and workshop into the game folder.
 5. Open one of the .DMX files in the saved sessions folder.

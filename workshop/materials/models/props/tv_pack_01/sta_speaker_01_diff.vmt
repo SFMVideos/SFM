@@ -1,0 +1,23 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props/tv_pack_01/sta_speaker_01_diff"	
+
+	"$basemapalphaphongmask"	"1"
+
+	$color2 "[ .7 .7 .7 ]"
+	$color2 "{ 255 255 255 }"
+	
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.05"
+	"$phongfresnelranges" "[.25 1 4]"
+	"$halflambert" "1"
+		
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "4"
+	"$rimlightboost" "1"
+
+}
+

@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" "models/props/tv_pack_01/sta_tvwallmount_01_diff"	
+
+	$color2 "[ 1 1 1 ]"
+	$color2 "{ 255 255 255 }"
+
+}
+
