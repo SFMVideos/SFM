@@ -119,6 +119,8 @@ Requirements:
 
 *Staff FAQ #4: What Are the Different Types of Branches and What Do They Mean?*
 -------------------------------------------------------------------------------
+Here are the 3 branches that we have:
+
 *Master Branch* This branch is the main branch where all contributors and staff members will submit their
 changes to.
 
@@ -126,4 +128,6 @@ changes to.
 into the release branch.
 
 *Release Branch* This branch is bug/crash free.
+
 Master Branch (Main Database) > Experimental Branch (Experimenting Branch) > Release Branch (Final Release)
+-----------------------------------------------------------------------------------------------------------
