@@ -1,6 +1,6 @@
 ﻿**[SFM] YouTube Videos®**
 ====================
-### Below Are Our Top 7 Frequently Asked Questions.
+### Below Are Our Top 8 Frequently Asked Questions.
 
 *FAQ #1: Why Did You Guys Start Making Source Filmmaker Videos?*
 ----------------------------------------------------------------
@@ -27,7 +27,11 @@ Yes we are in high demand for more team members. *(Read FAQ #5 For More Informat
 If you have all the requirements to join one of the staff positions then you can send us an email
 at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
 
-*FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?*
+*FAQ #6: Is There Currently A Website that I can Apply to For Updates?*
+-----------------------------------------------------------------------
+Yes, there is: *www.sfmvideos.weebly.com*
+
+*FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
 - [Project Developer] RyanPressinger
@@ -37,7 +41,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 - [Services Manager] OPEN
 - [Movie Scripter] OPEN
 
-*FAQ #7: What Are The Requirements For Each Staff Position?*
+*FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
 ### [Project Developer]
 The job of a Project Developer is to develop the actual video.
@@ -74,6 +78,13 @@ Requirements:
 - Basic Knowledge of Photoshop CS6.
 - Basic Knowledge of Quakenet/IRC
 
+### [Website Manager]
+The job of a Website Manager is to manage the SFM website. Managing uncludes updating all parts of the website and forums.
+
+Requirments:
+- Advanced knowledge of weebly.
+- Advanced knowledge of forums and forum saftey.
+
 ### [Movie Scripter]
 The job of a Movie Scripter is scripting the story line of the movie.
 
@@ -108,5 +119,15 @@ Requirements:
 
 *Staff FAQ #4: What Are the Different Types of Branches and What Do They Mean?*
 -------------------------------------------------------------------------------
-[SFM] Videos has 2 branches. One branch is the *master* branch that has the most updated stuff on it.
-The other branch is the *release*, this branch is bug free with no problems/crashes.
+Here are the 3 branches that we have:
+
+*Master Branch* This branch is the main branch where all contributors and staff members will submit their
+changes to.
+
+*Experimental Branch* This branch is where we experiment bugs/crashes, once they are fixed we can merge it
+into the release branch.
+
+*Release Branch* This branch is bug/crash free.
+
+Master Branch (Main Database) > Experimental Branch (Experimenting Branch) > Release Branch (Final Release)
+-----------------------------------------------------------------------------------------------------------
