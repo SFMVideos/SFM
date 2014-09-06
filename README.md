@@ -78,6 +78,13 @@ Requirements:
 - Basic Knowledge of Photoshop CS6.
 - Basic Knowledge of Quakenet/IRC
 
+### [Website Manager]
+The job of a Website Manager is to manage the SFM website. Managing uncludes updating all parts of the website and forums.
+
+Requirments:
+- Advanced knowledge of weebly.
+- Advanced knowledge of forums and forum saftey.
+
 ### [Movie Scripter]
 The job of a Movie Scripter is scripting the story line of the movie.
 
