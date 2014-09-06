@@ -13,7 +13,7 @@ for your enjoyment.
 There is no current goal for finishing this project but we hope for it
 to be finished by 2015.
 
-*FAQ #3 How Can Non-Staff Members Help?*
+*FAQ #3: How Can Non-Staff Members Help?*
 --------------------------------------
 There's really not much you can do. So if you're thinking about helping send us, you can try joining
 the staff. *(Read FAQ #5 For More Information)*
@@ -22,7 +22,7 @@ the staff. *(Read FAQ #5 For More Information)*
 -------------------------------------------------------------
 Yes we are in high demand for more team members. *(Read FAQ #5 For More Information)*
 
-*FAQ #5 How Can I Join the Team?*
+*FAQ #5: How Can I Join the Team?*
 ---------------------------------
 If you have all the requirements to join one of the staff positions then you can send us an email
 at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
