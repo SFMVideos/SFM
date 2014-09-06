@@ -1,6 +1,6 @@
 ﻿**[SFM] YouTube Videos®**
 ====================
-### Below Are Our Top 7 Frequently Asked Questions.
+### Below Are Our Top 8 Frequently Asked Questions.
 
 *FAQ #1: Why Did You Guys Start Making Source Filmmaker Videos?*
 ----------------------------------------------------------------
@@ -27,7 +27,11 @@ Yes we are in high demand for more team members. *(Read FAQ #5 For More Informat
 If you have all the requirements to join one of the staff positions then you can send us an email
 at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
 
-*FAQ #6: Who Are The Current Staff Members and Are There Any Positions Open?*
+*FAQ #6: Is There Currently A Website that I can Apply to For Updates?*
+-----------------------------------------------------------------------
+Yes, there is: *www.sfmvideos.weebly.com*
+
+*FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
 - [Project Developer] RyanPressinger
@@ -37,7 +41,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 - [Services Manager] OPEN
 - [Movie Scripter] OPEN
 
-*FAQ #7: What Are The Requirements For Each Staff Position?*
+*FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
 ### [Project Developer]
 The job of a Project Developer is to develop the actual video.
