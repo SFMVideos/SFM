@@ -119,5 +119,11 @@ Requirements:
 
 *Staff FAQ #4: What Are the Different Types of Branches and What Do They Mean?*
 -------------------------------------------------------------------------------
-[SFM] Videos has 2 branches. One branch is the *master* branch that has the most updated stuff on it.
-The other branch is the *release*, this branch is bug free with no problems/crashes.
+*Master Branch* This branch is the main branch where all contributors and staff members will submit their
+changes to.
+
+*Experimental Branch* This branch is where we experiment bugs/crashes, once they are fixed we can merge it
+into the release branch.
+
+*Release Branch* This branch is bug/crash free.
+Master Branch (Main Database) > Experimental Branch (Experimenting Branch) > Release Branch (Final Release)
