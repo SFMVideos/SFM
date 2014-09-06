@@ -57,13 +57,10 @@ REGULAR STAFF:
 
 *FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
-*Advanced* = You have all skills in this area (*90-100% Knowledge*)
 
-*Intermediate* = You have most skills in this area (*50-75% Knowledge*)
-
-*Basic* = You have some skills in this area (*10-25% Knowledge*)
-
-NOTE: *ALL* staff members *MUST* have a GitHub account.
+- *Advanced* = You have all skills in this area (*90-100% Knowledge*)
+- *Intermediate* = You have most skills in this area (*50-75% Knowledge*)
+- *Basic* = You have some skills in this area (*10-25% Knowledge*)
 
 ### [Project Developer]
 The job of a Project Developer is to edit and develop the video or clips.
@@ -118,6 +115,9 @@ The job of a Movie Scripter is scripting the story line of the movie.
 Requirements:
 - *Advanced* Imagination.
 - *Advanced* Word thought process.
+
+NOTE: *ALL* staff members *MUST* have a GitHub account.
+-------------------------------------------------------
 
 **Below Are The Top 4 Staff Member Frequently Asked Questions.**
 -----------------------------------------------------------
