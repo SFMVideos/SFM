@@ -58,8 +58,11 @@ REGULAR STAFF:
 *FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
 *Advanced* = You have all skills in this area (*90-100% Knowledge*)
+
 *Intermediate* = You have most skills in this area (*50-75% Knowledge*)
+
 *Basic* = You have some skills in this area (*10-25% Knowledge*)
+
 NOTE: *ALL* staff members *MUST* have a GitHub account.
 
 ### [Project Developer]
