@@ -57,20 +57,11 @@ REGULAR STAFF:
 
 *FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
-
 *Advanced* = You have all skills in this area (*90-100% Knowledge*)
-<<<<<<< HEAD
 
 *Intermediate* = You have most skills in this area (*50-75% Knowledge*)
 
 *Basic* = You have some skills in this area (*10-25% Knowledge*)
-=======
-===
-*Intermediate* = You have most skills in this area (*50-75% Knowledge*)
-===
-*Basic* = You have some skills in this area (*10-25% Knowledge*)
-===
->>>>>>> origin/master
 
 ### [Project Developer]
 The job of a Project Developer is to edit and develop the video or clips.
