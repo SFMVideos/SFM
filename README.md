@@ -33,14 +33,26 @@ Yes, there is: *www.sfmvideos.weebly.com*
 
 *FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
+LEADERS AND MANAGERS:
 - [Project Leader] Mesagoppinmypants/Iosnowore-Kun
-- [Project Developer] RyanPressinger
-- [Movie Trailer Developer] OPEN
+- [Project Developer Leader] RyanPressinger
+- [Trailer Developer Leader] OPEN
 - [Social Media Manager] OPEN
-- [Content Developer] OPEN
-- [Quality Assurance] OPEN
+- [Content Developer Leader] OPEN
+- [Quality Assurance Leader] OPEN
 - [Services Manager] OPEN
 - [Website Manager] OPEN
+- [Movie Scripter Leader] OPEN
+
+REGULAR STAFF:
+
+- [Movie Trailer Developer] OPEN
+- [Social Media Intern] OPEN
+- [Project Developer] OPEN
+- [Content Developer] OPEN
+- [Quality Assurance] OPEN
+- [Services Intern] OPEN
+- [Website Intern] OPEN
 - [Movie Scripter] OPEN
 
 *FAQ #8: What Are The Requirements For Each Staff Position?*
