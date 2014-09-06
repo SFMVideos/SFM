@@ -6,3 +6,5 @@
 *.bak
 *.autosave
 *.sfk
+*.tmp
+*.dt
