@@ -39,6 +39,7 @@ Yes, there is: *www.sfmvideos.weebly.com*
 - [Quality Assurance] OPEN
 - [Social Media Manager] OPEN
 - [Services Manager] OPEN
+- [Website Manager] OPEN
 - [Movie Scripter] OPEN
 
 *FAQ #8: What Are The Requirements For Each Staff Position?*
