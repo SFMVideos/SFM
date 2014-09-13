@@ -28,9 +28,13 @@ Yes we are in high demand for more team members. *(Read FAQ #5 For More Informat
 If you have all the requirements to join one of the staff positions then you can send us an email
 at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
 
-*FAQ #6: Is There Currently A Website that I can Apply to For Updates?*
+*FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
 -----------------------------------------------------------------------
-Yes, there is: *www.sfmvideos.weebly.com*
+Yes, we do.
+Our website: *(http://sfmvideos.weebly.com)*
+Our YouTube: UNDERCONTRUCTION
+Our Facebook: UNDERCONSTRUCTION
+Our Twitter: UNDERCONSTRUCTION
 
 *FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
@@ -125,9 +129,10 @@ NOTE: *ALL* staff members *MUST* have a GitHub account.
 ----------------------------------------------------------------
 *Staff FAQ #1: What Software Will Staff Members Need?*
 ------------------------------------------------------
-1. Source Filmmaker *(http://www.sourcefilmmaker.com)*
-3. A GitHub Account *(https://github.com)*
-2. GitHub for Windows *(https://windows.github.com)*
+1. Source Filmmaker *(http://goo.gl/oa1WCl)*
+3. A GitHub Account *(http://goo.gl/QqsZve)*
+2. GitHub for Windows *(http://goo.gl/vSMtwZ)*
+4. Notepad ++ (http://goo.gl/ek9wDz)*
 
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
 --------------------------------------------------------
@@ -145,7 +150,7 @@ NOTE: *ALL* staff members *MUST* have a GitHub account.
 4. Press Commit Uncommitted Changes.
 5. Press Sync and wait for it to finish. *(The time you wait depends on how many files you've changed.)*
 
-*Staff FAQ #4: What Are the Different Types of Branches and What Do They Mean?*
+*Staff FAQ #4: What Are the Different Types of Branches and What Do They Do?*
 -------------------------------------------------------------------------------
 Here are the 3 branches that we have:
 
