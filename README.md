@@ -33,7 +33,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 Yes, we do.
 Our website: *(http://sfmvideos.weebly.com)*
 Our YouTube: UNDERCONTRUCTION
-Our Facebook: (https://facebook.com/SFMVideos)*
+Our Facebook: *(https://facebook.com/SFMVideos)*
 Our Twitter: UNDERCONSTRUCTION
 
 *FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
