@@ -1,7 +1,5 @@
 """
 Adds a focal plane bone (a transform control actually).
-Created by Yandros (www.steamcommunity.com/id/yandrosprofile) © All rights reserved,
-except for the "adding a bone/dag" method, which is inspired on the one in view_target_camera.py script by MulleDK19.
 """
 
 from win32gui import MessageBox
