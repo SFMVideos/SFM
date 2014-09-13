@@ -1,5 +1,6 @@
-﻿**[SFM] YouTube Videos®**
-====================
+**[SFM] YouTube Videos®**
+=========================
+The current .zip file for this repo is 1.6 GBs
 ### Below Are Our Top 8 Frequently Asked Questions.
 
 *FAQ #1: Why Did You Guys Start Making Source Filmmaker Videos?*
@@ -14,7 +15,7 @@ There is no current goal for finishing this project but we hope for it
 to be finished by 2015.
 
 *FAQ #3: How Can Non-Staff Members Help?*
---------------------------------------
+-----------------------------------------
 There's really not much you can do. So if you're thinking about helping send us, you can try joining
 the staff. *(Read FAQ #5 For More Information)*
 
