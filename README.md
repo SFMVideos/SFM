@@ -135,6 +135,9 @@ needs to be downloaded by each staff member.
 3. Open GitHub Windows.
 4. Press Commit Uncommitted Changes.
 5. Press Sync and wait for it to finish. *(The time you wait depends on how many files you've changed.)*
+6. Go to your repository on your browser.
+7. Press *"Pull Request"*.
+8. Create a pull request.
 
 *Staff FAQ #4: What Are the Different Types of Branches and What Do They Do?*
 -------------------------------------------------------------------------------
