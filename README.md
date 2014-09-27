@@ -1,6 +1,6 @@
 **[SFM] YouTube Videos®**
 =========================
-The current .zip file for this repo is 1.6 GBs
+The current .zip file for this repository is 1.6 GBs
 ### Below Are Our Top 8 Frequently Asked Questions.
 
 *FAQ #1: Why Did You Guys Start Making Source Filmmaker Videos?*
@@ -9,10 +9,10 @@ We started making Source Filmmaker videos because we felt like a lot of people l
 but we take it to the next level. We have a whole team working on one and there will be more and more non-stop episodes
 for your enjoyment.
 
-*FAQ #2: When Will The First Video Be Finished?*
+*FAQ #2: When will the first video be finished?*
 ------------------------------------------------
 There is no current goal for finishing this project but we hope for it
-to be finished by 2015.
+to be finished by the end of 2015.
 
 *FAQ #3: How Can Non-Staff Members Help?*
 -----------------------------------------
@@ -29,15 +29,15 @@ If you have all the requirements to join one of the staff positions then you can
 at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to join that position.
 
 *FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
------------------------------------------------------------------------
+----------------------------------------------------------------------------
 Yes, we do.
 Our website: *(http://www.sfmvideos.weebly.com)*
 Our YouTube: *UNDERCONTRUCTION*
 Our Facebook: *(https://www.facebook.com/SFMVideos)*
 Our Twitter: *UNDERCONSTRUCTION*
 
-*FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
------------------------------------------------------------------------------
+*FAQ #7: Who are the current staff members and which positions are open?*
+-------------------------------------------------------------------------
 LEADERS AND MANAGERS:
 - [Project Leader]: Mesagoppinmypants/Iosnowore-Kun
 - [Project Developer Leader]: RyanPressinger
@@ -77,7 +77,7 @@ The job of a Quality Assurance member is to report bugs and enhancements in the 
 
 Requirements:
 - *Intermediate* knowledge of GitHub and GitHub Windows.
-- *Intermediate* knowledge of Sourcefilm Maker
+- *Intermediate* knowledge of Source Filmmaker.
 
 ### [Services Manager] / [Services Intern]
 The job of a Services Manager / Services Intern will be managing our social media sites such as Facebook,
@@ -88,8 +88,8 @@ Requirements:
 - *Advanced* knowledge of YouTube.
 - *Advanced* grammar and spelling skills.
 - *Advanced* knowledge of Sony Vegas Pro 13.
-- *Advanced* knowledge of weebly.
-- *Intermediate* knowledge of forums and forum saftey.
+- *Advanced* knowledge of Weebly website management.
+- *Intermediate* knowledge of forums and forum safety.
 - *Basic* knowledge of Photoshop CS6.
 - *Basic* knowledge of Quakenet/IRC.
 - *Basic* knowledge of Facebook and Twitter.
@@ -106,17 +106,19 @@ Requirements:
 - *Advanced* imagination.
 - *Advanced* word thought process.
 
-NOTE: *ALL* staff members *MUST* have a GitHub account.
--------------------------------------------------------
+### NOTE: *ALL* staff members *MUST* have a GitHub account.
 
 **Below Are The Top 4 Staff Member Frequently Asked Questions.**
 ----------------------------------------------------------------
-*Staff FAQ #1: What Software Will Staff Members Need?*
+*Staff FAQ #1: What Software Will Each Staff Member Need?*
 ------------------------------------------------------
-1. Source Filmmaker *(http://goo.gl/oa1WCl)*
-3. A GitHub Account *(http://goo.gl/QqsZve)*
-2. GitHub for Windows *(http://goo.gl/vSMtwZ)*
-4. Notepad ++ (http://goo.gl/ek9wDz)*
+The following links will be the download pages of what
+needs to be downloaded by each staff member.
+
+- Source Filmmaker *(http://goo.gl/oa1WCl)*
+- A GitHub Account *(http://goo.gl/QqsZve)*
+- GitHub for Windows *(http://goo.gl/vSMtwZ)*
+- Notepad ++ (http://goo.gl/ek9wDz)*
 
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
 --------------------------------------------------------
