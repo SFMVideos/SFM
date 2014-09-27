@@ -31,96 +31,80 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 *FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
 -----------------------------------------------------------------------
 Yes, we do.
-Our website: *(http://sfmvideos.weebly.com)*
-Our YouTube: UNDERCONTRUCTION
-Our Facebook: *(https://facebook.com/SFMVideos)*
-Our Twitter: UNDERCONSTRUCTION
+Our website: *(http://www.sfmvideos.weebly.com)*
+Our YouTube: *UNDERCONTRUCTION*
+Our Facebook: *(https://www.facebook.com/SFMVideos)*
+Our Twitter: *UNDERCONSTRUCTION*
 
 *FAQ #7: Who Are The Current Staff Members and Are There Any Positions Open?*
 -----------------------------------------------------------------------------
 LEADERS AND MANAGERS:
-- [Project Leader] Mesagoppinmypants/Iosnowore-Kun
-- [Project Developer Leader] RyanPressinger
-- [Trailer Developer Leader] OPEN
-- [Social Media Manager] OPEN
-- [Content Developer Leader] OPEN
-- [Quality Assurance Leader] OPEN
-- [Services Manager] OPEN
-- [Website Manager] OPEN
-- [Movie Scripter Leader] OPEN
+- [Project Leader]: Mesagoppinmypants/Iosnowore-Kun
+- [Project Developer Leader]: RyanPressinger
+- [Trailer Developer Leader]: *OPEN*
+- [Quality Assurance Leader]: *CLOSED*
+- [Services Manager]: *OPEN*
+- [Movie Scripter Leader]: *OPEN*
 
 REGULAR STAFF:
 
-- [Movie Trailer Developer] OPEN
-- [Social Media Intern] OPEN
-- [Project Developer] OPEN
-- [Content Developer] OPEN
-- [Quality Assurance] OPEN
-- [Services Intern] OPEN
-- [Website Intern] OPEN
-- [Movie Scripter] OPEN
+- [Project Developer]: *OPEN*
+- [Movie Trailer Developer] *OPEN*
+- [Quality Assurance]: *CLOSED*
+- [Services Intern]: *OPEN*
+- [Movie Scripter]: *OPEN*
 
 *FAQ #8: What Are The Requirements For Each Staff Position?*
 ------------------------------------------------------------
-*Advanced* = You have all skills in this area (*90-100% Knowledge*)
+*Advanced* = You have all skills in this area (*80-100% Knowledge*)
 
-*Intermediate* = You have most skills in this area (*50-75% Knowledge*)
+*Intermediate* = You have most skills in this area (*50-80% Knowledge*)
 
-*Basic* = You have some skills in this area (*10-25% Knowledge*)
+*Basic* = You have little or some skills in this area (*10-50% Knowledge*)
 
 ### [Project Developer]
 The job of a Project Developer is to edit and develop the video or clips.
 
 Requirements:
 - *Advanced* knowledge of Source Filmmaker.
-- *Advanced* Knowledge of file arrangement.
-- *Advanced* Knowledge of .DMX files.
-
-### [Content Developer]
-The job of a Content Developer is to add mobiles and custom audio to the project.
-
-Requirements:
-- *Advanced* Knowledge of how the Steam Workshop for SFM works.
-- *Advanced* Knowledge of file arrangement.
-- *Advanced* Knowledge of converting audio files *(.MP3, .WAV, .MPEG-4, ect.)*
+- *Advanced* knowledge of file arrangement.
+- *Advanced* knowledge of .DMX files.
+- *Advanced* knowledge of how the Steam Workshop for SFM works.
+- *Advanced* knowledge of converting audio files *(.MP3, .WAV, .MPEG-4, ect.)*
 
 ### [Quality Assurance]
 The job of a Quality Assurance member is to report bugs and enhancements in the issues tab.
 
 Requirements:
-- *Intermediate* Knowledge of GitHub and GitHub Windows.
-- *Intermediate* Knowledge of Sourcefilm Maker
+- *Intermediate* knowledge of GitHub and GitHub Windows.
+- *Intermediate* knowledge of Sourcefilm Maker
 
-### [Social Media Manager] / [Services Manager]
-The job of a Social Media Manager/Services Manager will be managing our social media sites such as Facebook,
-Twitter, YouTube, Instagram, Quakenet, Ect.
+### [Services Manager] / [Services Intern]
+The job of a Services Manager / Services Intern will be managing our social media sites such as Facebook,
+Twitter, YouTube, Instagram, Quakenet, Ect. Also, they will be managing the official website by creating
+threads informing people about the project, moderating the website, maintenance, ect.
 
 Requirements:
-- *Advanced* Knowledge of YouTube.
-- *Advanced* Grammar and spelling skills.
-- *Advanced* Knowledge of Sony Vegas Pro 13.
-- *Basic* Knowledge of Photoshop CS6.
-- *Basic* Knowledge of Quakenet/IRC.
-- *Basic* Knowledge of Facebook and Twitter.
-
-### [Movie Trailer Developer]
-- *Advanced* Knowledge of Sony Vegas Pro 13.
-- *Advanced* Knowledge of Photoshop CS6.
-- *Basic* Knowledge of Adobe After Effects CC.
-
-### [Website Manager]
-The job of a Website Manager is to manage the SFM website. Managing uncludes updating all parts of the website and forums.
-
-Requirments:
+- *Advanced* knowledge of YouTube.
+- *Advanced* grammar and spelling skills.
+- *Advanced* knowledge of Sony Vegas Pro 13.
 - *Advanced* knowledge of weebly.
 - *Intermediate* knowledge of forums and forum saftey.
+- *Basic* knowledge of Photoshop CS6.
+- *Basic* knowledge of Quakenet/IRC.
+- *Basic* knowledge of Facebook and Twitter.
+
+### [Movie Trailer Developer]
+- *Advanced* knowledge of Sony Vegas Pro 13.
+- *Advanced* knowledge of Photoshop CS6.
+- *Basic* Knowledge of Adobe After Effects CC.
 
 ### [Movie Scripter]
 The job of a Movie Scripter is scripting the story line of the movie.
 
 Requirements:
-- *Advanced* Imagination.
-- *Advanced* Word thought process.
+- *Advanced* imagination.
+- *Advanced* word thought process.
 
 NOTE: *ALL* staff members *MUST* have a GitHub account.
 -------------------------------------------------------
