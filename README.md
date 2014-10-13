@@ -30,7 +30,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 
 *FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
 ----------------------------------------------------------------------------
-Yes, we do.
+Yes, we do...
 Our website: *(http://www.sfmvideos.weebly.com)*
 Our YouTube: *UNDERCONTRUCTION*
 Our Facebook: *(https://www.facebook.com/SFMVideos)*
@@ -118,7 +118,7 @@ needs to be downloaded by each staff member.
 - Source Filmmaker *(http://goo.gl/oa1WCl)*
 - A GitHub Account *(http://goo.gl/QqsZve)*
 - GitHub for Windows *(http://goo.gl/vSMtwZ)*
-- Notepad ++ (http://goo.gl/ek9wDz)*
+- Notepad ++ *(http://goo.gl/ek9wDz)*
 
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
 --------------------------------------------------------
