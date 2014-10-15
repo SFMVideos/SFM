@@ -1,11 +1,13 @@
 **[SFM] YouTube Videos®**
 =========================
-The current .zip file for this repository is 1.6 GBs
-### Below Are Our Top 8 Frequently Asked Questions.
+The current .zip file for this repository is 1.6 GBs.
+
+We are a group of people that work on Source Filmmaker projects. We also work with the "Eclipse Reborn" private SWG server to make trailer videos.
+You can read our FAQ bellow.
 
 *FAQ #1: Why Did You Guys Start Making Source Filmmaker Videos?*
 ----------------------------------------------------------------
-We started making Source Filmmaker videos because we felt like a lot of people liked to watch the amature ones on YouTube
+We started making Source Filmmaker videos because we felt like a lot of people liked to watch the amateur ones on YouTube
 but we take it to the next level. We have a whole team working on one and there will be more and more non-stop episodes
 for your enjoyment.
 
@@ -30,13 +32,13 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 
 *FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
 ----------------------------------------------------------------------------
-Yes, we do.
+Yes, we do...
 Our website: *(http://www.sfmvideos.weebly.com)*
 Our YouTube: *UNDERCONTRUCTION*
 Our Facebook: *(https://www.facebook.com/SFMVideos)*
 Our Twitter: *UNDERCONSTRUCTION*
 
-*FAQ #7: Who are the current staff members and which positions are open?*
+*FAQ #8: Who are the current staff members and which positions are open?*
 -------------------------------------------------------------------------
 LEADERS AND MANAGERS:
 - [Project Leader]: Mesagoppinmypants/Iosnowore-Kun
@@ -115,10 +117,12 @@ Requirements:
 The following links will be the download pages of what
 needs to be downloaded by each staff member.
 
+- Steam Account *(http://goo.gl/X8nqZK)*
+- Steam Client *(http://goo.gl/tBYxCy)*
 - Source Filmmaker *(http://goo.gl/oa1WCl)*
-- A GitHub Account *(http://goo.gl/QqsZve)*
+- GitHub Account *(http://goo.gl/QqsZve)*
 - GitHub for Windows *(http://goo.gl/vSMtwZ)*
-- Notepad ++ (http://goo.gl/ek9wDz)*
+- Notepad ++ *(http://goo.gl/ek9wDz)*
 
 *Staff FAQ #2: How Do I Use/Edit one of the SFM Videos?*
 --------------------------------------------------------
