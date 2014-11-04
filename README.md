@@ -78,8 +78,8 @@ Requirements:
 The job of a Quality Assurance member is to report bugs and enhancements in the issues tab.
 
 Requirements:
-- *Intermediate* knowledge of GitHub and GitHub Windows.
-- *Intermediate* knowledge of Source Filmmaker.
+- *Intermediate* or higher knowledge of GitHub and GitHub Windows.
+- *Intermediate* or higher knowledge of Source Filmmaker.
 
 ### [Services Manager] / [Services Intern]
 The job of a Services Manager / Services Intern will be managing our social media sites such as Facebook,
@@ -91,15 +91,15 @@ Requirements:
 - *Advanced* grammar and spelling skills.
 - *Advanced* knowledge of Sony Vegas Pro 13.
 - *Advanced* knowledge of Weebly website management.
-- *Intermediate* knowledge of forums and forum safety.
-- *Basic* knowledge of Photoshop CS6.
-- *Basic* knowledge of Quakenet/IRC.
-- *Basic* knowledge of Facebook and Twitter.
+- *Intermediate* or higher knowledge of forums and forum safety.
+- *Basic* or higher knowledge of Photoshop CS6.
+- *Basic* or higher knowledge of Quakenet/IRC.
+- *Basic* or higher knowledge of Facebook and Twitter.
 
 ### [Movie Trailer Developer]
 - *Advanced* knowledge of Sony Vegas Pro 13.
 - *Advanced* knowledge of Photoshop CS6.
-- *Basic* Knowledge of Adobe After Effects CC.
+- *Basic* or higher Knowledge of Adobe After Effects CC.
 
 ### [Movie Scripter]
 The job of a Movie Scripter is scripting the story line of the movie.
