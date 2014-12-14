@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	$basetexture "Models\LT_C\tech\cellphone\screen_off"
+	$halflambert 1
+}
+

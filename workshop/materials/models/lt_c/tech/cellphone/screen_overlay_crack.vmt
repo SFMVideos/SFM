@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	$basetexture "Models\LT_C\Tablet\overlay_crack"
+	$translucent 1
+}
+

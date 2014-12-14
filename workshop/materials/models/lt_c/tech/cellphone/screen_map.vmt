@@ -1,0 +1,14 @@
+"UnLitGeneric"
+{
+	$basetexture "Models\LT_C\Tablet\scroll_map"
+	Proxies
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.1
+			"texturescrollangle" 0
+		}
+ 	}
+}
+

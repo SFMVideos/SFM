@@ -1,0 +1,14 @@
+"UnLitGeneric"
+{
+	$basetexture "Models\LT_C\tech\cellphone\screen_code"
+	Proxies
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$basetexturetransform"
+			"texturescrollrate" 0.4
+			"texturescrollangle" 90
+		}
+ 	}
+}
+

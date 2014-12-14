@@ -1,0 +1,6 @@
+"UnLitGeneric"
+{
+	$basetexture "Models\LT_C\tech\cellphone\screen_overlay"
+	$translucent 1
+}
+

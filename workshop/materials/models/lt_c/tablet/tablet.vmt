@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\LT_C\Tablet\Tablet"
+	"$halflambert" "1"
+	"$bumpmap" "models\LT_C\Tablet\Tablet_n"
+
+	"$phong" "1"
+	"$phongexponenttexture" "models\LT_C\Tablet\Tablet_exp"
+	"$phongboost" ".2"
+	"$phongfresnelranges"	"[ .7 1.2 5]"
+	"$PhongAlbedoTint" "1"
+
+	"$rimlight" "1"						
+	"$rimlightexponent" "8"				
+	"$rimlightboost" ".1"
+	"$rimmask" "1"
+}

@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+                "$phongdisablehalflambert" "1"
+	"$baseTexture" "models/player/ct_st6/st6_lowerbody"
+	"$bumpMap" "models/player/ct_st6/st6_lowerbody_normal"
+	"$phong" "1"
+	"$phongBoost" "3"
+	//"$phongExponent" "40"
+	"$phongTint" "[1 1 1]"
+	"$phongFresnelRanges" "[.2 .2 1]"
+	"$rimlight" "1"
+	"$rimlightexponent" "15"
+	"$rimlightboost" "4"
+	"$phongexponenttexture" "\models\player\ct_st6\st6_lowerbody_exponent"
+	"$rimmask" "1"
+}

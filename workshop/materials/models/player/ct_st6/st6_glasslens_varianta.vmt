@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ct_st6/st6_glasslens_variantA"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/ct_st6/st6_glasslens_spec"
+	"$translucent" "1"
+	"$nocull" "1"
+	"$nodecal" 1
+}
