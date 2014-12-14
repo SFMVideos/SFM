@@ -1,0 +1,7 @@
+LightmappedGeneric
+{
+	$basetexture "marcem/gold"
+	$surfaceprop "Metal"
+	$bumpmap "marcem/gold_normal"
+	
+}

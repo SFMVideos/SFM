@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models\Bully\Dropouts\Zoe/dogirl_zoe_02_d"
+	 $bumpmap "models\Bully\Dropouts\Zoe/DOGirl_Zoe_02_n"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models\Bully\Dropouts\Zoe/DOGirl_Zoe_02_s"
+
+}

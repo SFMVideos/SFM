@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models/Bully/Generic/Christy/GN_Sexygirl_MD_D"
+	 //$envmap "env_cubemap"
+	 $bumpmap "models/Bully/Generic/Christy/GN_Sexygirl_MD_n"
+	 //$envmapmask "models/Bully/Generic/Christy/GN_Sexygirl_MD_s"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models/Bully/Generic/Christy/GN_Sexygirl_MD_s"
+
+}
