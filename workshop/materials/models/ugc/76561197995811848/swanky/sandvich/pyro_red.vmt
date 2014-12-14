@@ -1,0 +1,21 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\ugc\76561197995811848\swanky\sandvich\pyro_red"
+	"$bumpmap" "models\ugc\76561197995811848\swanky\sandvich\pyro_normal"
+
+	"$yellow" "0"
+	"$one" "1"
+
+
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "1"	
+	"$lightwarptexture" "models\ugc\76561197995811848\swanky\sandvich\pyro_lightwarp"
+	"$phongfresnelranges"	"[2 1 5]"
+	"$halflambert" "1"
+
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+}

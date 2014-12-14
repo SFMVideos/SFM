@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "soho/floortile_001"
+	"$surfaceprop" "tile"
+	"$bumpmap" "tile/floor_tile_006a_normal"
+	"%keywords" "tf"
+}

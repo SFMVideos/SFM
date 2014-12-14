@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexturetransform "center 0.5 0.5 scale 1.0 1.0 rotate 0.0 translate 0.0 0.0"
+	 $basetexture "models/weapon/tomahawk_d"
+}

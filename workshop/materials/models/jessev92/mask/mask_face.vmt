@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+
+	// Original shader: VertexLitTexture
+	"$basetexture" "models\jessev92/mask/mask_face"
+	"$halflambert" 1
+
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "75"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "0.07"	
+
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+   "$basetexture" "models/SWTOR/Satele/bfn_satele_a01_v01_d"
+   "$bumpmap" "models/SWTOR/Satele/bfn_satele_a01_v01_n"
+}

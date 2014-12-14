@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models\Bully\Generic\Gary\Nemesis_03_d"
+	 $bumpmap "models\Bully\Generic\Gary\Nemesis_03_n"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models\Bully\Generic\Gary\Nemesis_03_s"
+
+}

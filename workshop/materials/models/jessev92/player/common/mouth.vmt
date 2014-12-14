@@ -1,0 +1,12 @@
+"Teeth"
+{
+	"$basetexture" "models\jessev92\player\common\mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+	"$phong" "1"
+	"$phongexponent" "35"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}
+

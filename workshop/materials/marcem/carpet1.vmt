@@ -1,0 +1,9 @@
+LightmappedGeneric
+{
+	$basetexture "marcem/carpet1"
+	$surfaceprop "Carpet"
+	$bumpmap "marcem/carpet1_ssbump"
+	$ssbump "1"
+	$parallaxmap "marcem/carpet1_height"
+	$parallaxmapscale "0.2"
+}

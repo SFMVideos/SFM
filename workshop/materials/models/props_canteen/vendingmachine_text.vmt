@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/props_canteen/vendingmachine_text"
+	"$model" "1"
+	"$nodecal" "1"
+	"$nolod" "1"
+	"Proxies"
+	{
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$basetexture"
+			"animatedtextureframenumvar" "$frame"
+			"animatedtextureframerate" "3"
+		}
+	}
+}

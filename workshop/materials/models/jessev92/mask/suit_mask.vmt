@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\jessev92/mask/suit_mask"
+	"$bumpmap" "models\jessev92/mask/suit_sheet_nml"
+	$halflambert 1
+}

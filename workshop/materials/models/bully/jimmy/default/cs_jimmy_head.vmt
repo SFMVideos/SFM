@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models/Bully/Jimmy/Default/CS_Player_01_d"
+	 $bumpmap "models/Bully/Jimmy/Default/CS_Player_01_n"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models/Bully/Jimmy/Default/CS_Player_01_s"
+}

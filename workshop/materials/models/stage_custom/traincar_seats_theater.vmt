@@ -1,0 +1,13 @@
+"GlobalLitSimple"
+{
+	// Original shader: BaseTimesLightmap
+	"$basetexture" "Tools/toolsnodraw"
+	"%compilenodraw" 1
+	"%keywords" "airexchange,borealis,c17downtown,c17industrial,c17sewers,c17skyscraper,c17trainstation,combine,kraken,wasteland"
+	"$fow"                          "_rt_fog_of_war"
+}
+"VertexLitGeneric"
+{
+	"$basetexture" "models/stage_custom/traincar_seats_theater"
+	"$normalmap" "models/stage_custom/traincar_seats_theater_normal"
+}

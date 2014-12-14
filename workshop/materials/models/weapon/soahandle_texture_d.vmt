@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models/weapon/SOAHandle_Texture_d"
+	 $translucent "1"
+}

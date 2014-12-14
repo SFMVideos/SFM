@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+   "$basetexture" "models/SWTOR/Satele/saber_high32_a01_v01_s"
+   "$bumpmap" "models/SWTOR/Satele/saber_high32_a01_v01_n"
+}

@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "wood/grain_elevator_facade_08"
+	"$surfaceprop" "wood"
+	"%keywords" "tf"
+	"$detail" "overlays/detail006"
+	"$detailscale" "1"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/sfmaniac/avatar/swan/glass"
+                "$bumpmap" "models/sfmaniac/avatar/swan/glass_norm"
+	"$translucent" 1
+	"$phong" 1
+	"$phongexponent" 12
+	"$phongboost" "6"
+	"$phongfresnelranges" "[0.3 0.7 0.2]"
+	"$nodecal" "1"
+
+}

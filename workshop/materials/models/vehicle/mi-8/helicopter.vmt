@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/vehicle/mi-8/helicopter"
+	"$bumpmap" "models/vehicle/mi-8/helicopter_normal"
+	"$basemapalphaphongmask" "1"	                           
+	"$phong" "1"
+	"$phongboost" "0.8"
+	"$halflambert" "1"
+	"$phongexponent" "100"							
+	"$phongfresnelranges"	"[.1 .5 1.0]"
+}

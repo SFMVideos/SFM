@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_movies/hs_sign/hs_sign"
+	"$surfaceprop"	"default"
+	"$bumpmap"	"models/props_movies/hs_sign/hs_sign_normal"
+	//"$translucent"	1
+	"$alphatest" 1
+	//phong properties
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"10"
+	"$phongfresnelranges"	"[1 2 2.5]"
+}

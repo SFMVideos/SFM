@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\ugc\76561197995811848\swanky\sandvich\sandwich"
+	"$basemapalphaphongmask" 1
+	"$surfaceprop"	"default"
+	//phong properties
+	"$phong"	"1"
+
+}

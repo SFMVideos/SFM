@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$basetexture"	"concrete/concretefloor007b"
+	"$bumpmap" "concrete/concretefloor007b_height-ssbump"
+	"%keywords" "tf"
+	"$detail" "overlays/detail001"
+	"$detailscale" "1.9"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

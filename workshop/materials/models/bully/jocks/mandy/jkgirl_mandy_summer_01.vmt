@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models\Bully\Jocks\Mandy/JKGirl_Mandy_Summer_01_d"
+	 $bumpmap "models\Bully\Jocks\Mandy/JKGirl_Mandy_Summer_01_n"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models\Bully\Jocks\Mandy/JKGirl_Mandy_Summer_01_s"
+}
