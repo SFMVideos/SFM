@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/HQdollar/dollar diffuse"
+	"$bumpmap" "models/HQdollar/dollar normal"	
+	"$halflambert" "1"
+	"$phong" "1"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.5 1 1]"
+}
+

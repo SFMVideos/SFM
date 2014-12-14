@@ -1,0 +1,5 @@
+VertexLitGeneric {
+	$basetexture	"models\jessev92\mask\feather01"
+	$halflambert 	1
+	$alphatest		1
+}

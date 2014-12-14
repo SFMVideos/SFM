@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models/Bully/Teachers/Crabblesnitch/TE_Principal01_d"
+	 $bumpmap "models/Bully/Teachers/Crabblesnitch/TE_Principal01_n"
+	 $phong "1"
+	 $phongboost  "0.588" 
+	 $phongfresnelranges "[0.05 0.5 1]"
+	 //$phongexponent "10"
+	 $phongexponenttexture "models/Bully/Teachers/Crabblesnitch/TE_Principal01_s"
+}

@@ -1,0 +1,10 @@
+"eyes"
+{
+	"$basetexture" "models\jessev92\player\common\eyeball_r"
+	"$iris" "models\jessev92\player\common\pupil_r"
+	"$halflambert" 1
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost"	"1"
+	"$phongfresnelranges"	"[0.25 0.5 1]"
+}
