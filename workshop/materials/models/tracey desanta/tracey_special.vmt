@@ -1,0 +1,23 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/Tracey DeSanta/Tracey_Special"
+
+	
+	"$bumpmap"     "models/Tracey DeSanta/Eyelash_Normal"
+	"$phongwarptexture" "models/Tracey DeSanta/Tracey_Wrap"
+		"$ambientocclusion" "0"
+	
+	"$phong" "1"
+	"$phongexponent" ".75"
+	"$phongboost" "0"	
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongfresnelranges"	"[1 1 1]"
+	"$phongtint" "[1.5 1 0.65]"
+	
+	
+	"$rimlight" "0"
+	"$rimlightexponent" "6"
+	"$rimlightboost" "10"
+
+
+}

@@ -1,0 +1,18 @@
+"EyeRefract"
+{
+	"$iris" "models/Tracey DeSanta/Eye"
+	"$AmbientOcclTexture" "models/Tracey DeSanta/pupil_ambient"  
+	"$Envmap"             "models/player/shared/eye-reflection-cubemap-"
+	"$CorneaTexture"      "models/player/shared/eye-cornea"
+	"$lightwarptexture"   "models/player/shared/eye_lightwarp"
+	"$EyeballRadius" "0.5"
+	"$AmbientOcclColor" "[0.25 0.25 0.25]"
+	"$Dilation" "0.5"
+	"$ParallaxStrength" "0.30"         
+	"$CorneaBumpStrength" "0.5"
+	
+	"$RaytraceSphere" "0"
+	"$SphereTexkillCombo" "0"
+
+
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	 $basetexture "models/weapon/SOA_Holster"
+	 $nocull "1"
+}

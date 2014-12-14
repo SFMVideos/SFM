@@ -1,0 +1,24 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/sfmaniac/avatar/swan/swan_diff1"
+	"$bumpmap"	"models/sfmaniac/avatar/swan/swan_diff1_n"
+
+	"$model" 					"1"
+	"$phong" 					"1"
+	"$phongexponent" 			"19"
+	"$phongboost" 				"20"
+
+	"$phongalbedotint" 1
+	"$phongexponenttexture" "models/sfmaniac/avatar/swan\green"
+
+	"$lightwarptexture" "Models\sfmaniac/avatar/swan/lightwarp"
+
+	"$phongfresnelranges"		"[0.7 0.3 0.4]"
+
+	"$ambientocclusion" 		"1"
+
+"$rimlight" "1" 
+"$rimlightexponent" "4" 
+"$rimlightboost" "0.3" 
+
+}

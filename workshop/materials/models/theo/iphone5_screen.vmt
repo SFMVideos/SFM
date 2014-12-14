@@ -1,0 +1,10 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/theo/Iphone5_Screen"
+	"$selfillum" "1"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/theo/Iphone5_Screen_s"
+	"$envmapcontrast "1.0"
+	"$envmapsaturation" "[1.0 1.0 1.0]"
+	"$Model" 1
+}

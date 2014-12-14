@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_movies/payphone/payphone"
+	"$surfaceprop"	"default"
+	"$bumpmap"	"models/props_movies/payphone/payphone_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "1 1 1"
+	
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponenttexture"	"models/props_movies/payphone/payphone_exp"
+	"$phongfresnelranges"	"[1 2 5]"
+	"$rimlight"	"1"
+	"$rimlightexponent"	"1"
+
+	"$ambientocclusion" "1"
+}

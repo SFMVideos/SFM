@@ -1,0 +1,21 @@
+"Vertexlitgeneric"
+{
+	"$basetexture" "models/Tracey DeSanta/Tracey_Hands"
+	"$phongwarptexture" "models/Tracey DeSanta/Tracey_Wrap"
+	"$bumpmap"     "models/player/shared/shared_normal"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detailscale" "0"
+	"$detailblendfactor" .01
+	"$detailblendmode" 6
+	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$rimlight" "1"											
+	"$rimlightexponent" "15"									
+	"$rimlightboost" ".25"									
+	"$yellow" "0"
+	"$one" "1"
+	"$phong" "1"
+	"$phongexponent" "20"
+	"$phongboost" ".0"	
+	"$phongfresnelranges"	"[.3 1 8]"
+	"$halflambert" "0"
+}

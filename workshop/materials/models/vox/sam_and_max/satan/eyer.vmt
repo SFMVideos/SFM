@@ -1,0 +1,19 @@
+"EyeRefract"
+{
+	"$Iris"               "models\vox\sam_and_max\Satan\Eye"
+	"$AmbientOcclTexture" "models\vox\sam_and_max\shared\eyeball_ambient"
+	"$Envmap"             	"Engine\eye-reflection-cubemap-"
+	"$CorneaTexture"      	"Engine\eye-cornea"
+
+	"$EyeballRadius" 		"0.1"
+	"$AmbientOcclColor" 	"[0.5 0.5 0.5]"
+	"$Dilation" 			"0.5"
+	"$ParallaxStrength" 	"0.1"
+	"$CorneaBumpStrength" 	"0.5"
+
+	"$halflambert" 			"1"
+	"$nodecal" 				"1"
+
+	"$RaytraceSphere" 		"0"
+	"$SphereTexkillCombo" 	"0"
+}

@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "nature/dirtground002"
+	"$bumpmap" "nature/dirtground002_height-ssbump"
+	"%keywords" "tf"
+	"$surfaceprop" "dirt"
+	"$detail" "overlays/detail004"
+	"$detailscale" "1.2"
+	"$detailblendmode" "0"
+	"$detailblendfactor" "1"
+}

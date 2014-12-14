@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "brick/brickwall005"
+	"$bumpmap" "brick/brickwall005_normal"
+	"%keywords" "tf"
+}

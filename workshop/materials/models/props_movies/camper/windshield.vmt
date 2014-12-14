@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/props_movies/camper/windshield"
+	"$surfaceprop"	"default"
+	"$translucent" 1
+	"$alpha" 1
+	
+	"$bumpmap"	"models/props_movies/camper/windshield_normal"
+	
+	"$phong"	"1"
+	"$phongboost"	"10"
+	"$phongexponent" "8"
+	"$phongfresnelranges"	"[.1 1 2]"
+	//"$rimlight"	"1"
+	//"$rimlightexponent"	"1"
+}

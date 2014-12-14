@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+
+	 $model "1"
+	 $basetexture "models/weapon/CHR_WP_Medium_Weapons_DiffuseMap_PC"
+}

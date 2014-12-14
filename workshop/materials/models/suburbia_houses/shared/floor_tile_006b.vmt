@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "tile/floor_tile_006b"
+	//"$envmap" "env_cubemap"
+	//"$envmapcontrast" 1
+	//"$envmapsaturation" 1
+	//"$envmaptint" "[ .75 .75 .75]"
+	//"$normalmapalphaenvmapmask" 1
+	"$surfaceprop" "tile"
+	"$bumpmap" "tile/floor_tile_006a_normal"
+	"%keywords" "tf"
+}
