@@ -33,7 +33,7 @@ at *(Iosnowore@gmail.com)* stating which position you want and why you'd want to
 *FAQ #6: Do You Guys Have Any Social Media or Forums to Hear About Updates?*
 ----------------------------------------------------------------------------
 Yes, we do...
-Our website: *(http://www.sfmvideos.weebly.com)*
+Our website: *(http://sfmvideos.enjin.com)*
 Our YouTube: *UNDERCONTRUCTION*
 Our Facebook: *(https://www.facebook.com/SFMVideos)*
 Our Twitter: *UNDERCONSTRUCTION*
@@ -42,7 +42,7 @@ Our Twitter: *UNDERCONSTRUCTION*
 -------------------------------------------------------------------------
 LEADERS AND MANAGERS:
 - [Project Leader]: Mesagoppinmypants/Iosnowore-Kun
-- [Project Developer Leader]: RyanPressinger
+- [Project Developer Leader]: *CLOSED*
 - [Trailer Developer Leader]: *OPEN*
 - [Quality Assurance Leader]: *CLOSED*
 - [Services Manager]: *OPEN*
