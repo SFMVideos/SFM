@@ -38,18 +38,17 @@ Our YouTube: *UNDERCONTRUCTION*
 Our Facebook: *(https://www.facebook.com/SFMVideos)*
 Our Twitter: *UNDERCONSTRUCTION*
 
-*FAQ #8: Who are the current staff members and which positions are open?*
+*FAQ #7: Who are the current staff members and which positions are open?*
 -------------------------------------------------------------------------
 LEADERS AND MANAGERS:
 - [Project Leader]: Mesagoppinmypants/Iosnowore-Kun
 - [Project Developer Leader]: *CLOSED*
 - [Trailer Developer Leader]: *OPEN*
 - [Quality Assurance Leader]: *CLOSED*
-- [Services Manager]: *OPEN*
+- [Services Manager]: *CLOSED*
 - [Movie Scripter Leader]: *OPEN*
 
 REGULAR STAFF:
-
 - [Project Developer]: *OPEN*
 - [Movie Trailer Developer] *OPEN*
 - [Quality Assurance]: *CLOSED*
